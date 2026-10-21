@@ -14,3 +14,11 @@ Removed historical Stage 24/25 live-cohort/acceptance tooling and its dependent
 tests from the public tree together with its private inputs and receipts. This
 is an explicit retirement of private operational tooling, not a rewrite of
 those receipts as passing synthetic acceptance. Product behavior tests remain.
+
+## 2026-10-22 — Product README refresh
+
+Reworked the public README around capture, durable saving, retrieval and data
+ownership. Added a source-controlled SVG workflow illustration, concise setup
+commands and documentation links. Development/privacy detail is collapsible;
+current product and licensing boundaries remain explicit. No runtime code,
+production configuration, private content or deployment was changed.

@@ -1,60 +1,69 @@
 # PerClip
 
-PerClip 是面向自托管的 Android 内容收集与 Core Memory 工具：分享或闪记 →
-本地上传队列 → Server 持久接收 → Worker 处理 → 知识列表、标题搜索与详情。
-RAGFlow 是可选的服务端索引，不是保存、列表和标题搜索的前提。
+**随手收集，可靠保存，随时找回。**
 
-唯一维护仓库：https://github.com/XingjianTian/PerClip 。旧历史与私人运维资料保留在
-私有归档中；不要把旧分支或旧 `.git` 合并回本仓库。
+PerClip 把 Android 上零散的链接、文字与文件，沉淀为自有服务器上的知识资产。
+从系统分享和闪记开始，通过持久化队列与后台处理，连接到知识列表、标题搜索和详情，
+让收集的内容有去处，也有清晰的找回路径。
 
-## 本地开发
+[快速开始](#快速开始) · [产品范围](docs/product-scope.md) · [服务端架构](docs/architecture.md) · [环境配置](docs/ENVIRONMENT.md)
 
-需要 Python 3.11+、uv；完整测试及提交检查需要 Gitleaks 8.25+。
-Android 构建另需 JDK 17 和对应 Android SDK。
+![PerClip 工作流程：Android 收集，经队列和 API 持久接收，在自有服务器处理，再通过列表、标题搜索和详情找回；RAGFlow 是可选索引。](docs/assets/readme-workflow.svg)
+
+## 为什么选择 PerClip
+
+| 能力 | 带来的价值 |
+| --- | --- |
+| **保存可追踪** | Android 本地队列、服务端持久接收与幂等处理，让上传、重试和处理状态有据可查。 |
+| **找回更直接** | 知识列表、标题关键词搜索与详情读回，保留原始资产和来源信息。 |
+| **数据归自己** | 自托管存储与处理，集成凭据留在服务端；RAGFlow 可按需接入。 |
+
+适合希望将手机内容沉淀到 NAS 或自有服务器的个人与技术用户。
+核心保存、列表与标题搜索不依赖 RAGFlow；当前提供 Android 与自托管服务端源码，
+不包含托管云服务或正式签名安装包。
+
+## 快速开始
+
+需要 Python 3.11+ 和 [uv](https://docs.astral.sh/uv/)。
 
 ```sh
+git clone https://github.com/XingjianTian/PerClip.git
+cd PerClip
 cp .env.example .env
 chmod 600 .env
-# 将 PERCLIP_INGEST_TOKEN 替换为本机生成的随机值，再按需填写地址与路径。
+# 在 .env 中设置独立随机 PERCLIP_INGEST_TOKEN，并按需填写地址和路径。
 make setup
-make privacy-setup
 make api
-# 另开一个终端，同一目录执行：
+# 另开终端，在同一目录执行：
 make worker
 ```
 
-API 和 Worker 通过 `scripts/with_env.sh` 显式加载根目录 `.env`，不把 `.env`
-当 Shell 脚本执行。数据目录相对仓库根目录解析。默认仅监听回环地址；如需其他设备
-访问，请在私有配置中设置监听地址、实际 HTTPS 服务地址及网络访问控制。
+在 Android 设置页填入移动端 API 地址和 mobile ingest token；服务端的 RAGFlow、
+ASR、embedding 等凭据不进入 APK。默认仅监听回环地址，跨设备访问与可选网关配置
+请按 [环境配置](docs/ENVIRONMENT.md) 设置。
 
-Android 的设置页配置移动端 API 地址和 mobile ingest token。RAGFlow、ASR、embedding、
-connector 的服务端密钥不能填进 Android，也不会编译进 APK。调试设备配置助手需由
-操作者明确调用；本项目克隆、构建和测试不会自动修改手机配置。
+## 继续了解
 
-环境变量、网关生成与部署边界见 [环境配置](docs/ENVIRONMENT.md)，API 与 Worker
-合同见 [Server 说明](server/README.md)。系统服务模板中的标准路径是部署示例，实际
-数据路径与凭证仍由私有环境文件提供。迁移源码不意味着生产服务已部署或完成验收。
+- [服务端说明](server/README.md)：API、Worker、存储与可选集成。
+- [数据合同](docs/data-contract.md)：内容、元数据与持久化边界。
+- [收集合同](docs/capture-contract.md)：收集入口与客户端职责。
 
-## 验证
+<details>
+<summary><strong>开发与验证</strong></summary>
+
+安装 Gitleaks 8.25+、配置 GitHub noreply 邮箱，并为新克隆启用提交前隐私检查：
 
 ```sh
+make privacy-setup
 make test
+# Android 构建另需 JDK 17 和对应 Android SDK。
 cd android
 ./gradlew :app:testDebugUnitTest :app:lintDebug :app:assembleDebug
 ```
 
-Server 测试使用隔离临时存储和模拟外部依赖。公开 URL 矩阵使用虚构标题、作者与
-`.invalid` 地址；它验证离线合同，不证明真实平台采集成功。合成质量语料的来源与许可
-见 [fixture licenses](tests/fixtures/quality/LICENSES.md)。历史 Stage 24/25 现场验收脚本及其依赖测试留在私有归档，不作为公开测试通过项。
-旧的现场录屏、登录后信息流
-样本、验收截图和生产记录没有随代码公开。
+测试使用隔离存储与合成语料，不代表真实平台采集或生产部署验收。
+提交前请阅读 [隐私检查](docs/PRIVACY.md)；真实配置、个人内容和运行数据应保持在 Git 外。
 
-## 提交前隐私检查
+</details>
 
-新克隆需安装 Gitleaks，设置 GitHub noreply 邮箱，并运行 `make privacy-setup`。
-`make privacy-check` 检查完整暂存内容、私有文件路径、本地敏感值和 Gitleaks 默认规则；
-缺少扫描器会阻止提交。每台机器可在忽略的 `.privacy.local.json` 中配置自己的私人
-字面量；不要把真实内容写入公共文档。详见 [隐私检查](docs/PRIVACY.md)。
-
-模式扫描和 hooks 不能保证所有未来提交都没有隐私，请审阅文字、图片和二进制内容。
-本次公开没有为项目自身代码擅自选择开源许可证；第三方依赖仍遵循各自许可证。
+**许可说明：**项目自身代码尚未选择开源许可证；第三方组件及合成语料遵循各自许可。

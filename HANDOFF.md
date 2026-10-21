@@ -24,3 +24,7 @@ only in the private archive with their original browsing inputs and receipts.
 They are retired from the public developer suite; no pass or skip is claimed
 for those private historical checks. Product API, processing, safety and Android
 regressions remain in the public source.
+
+The public README presents current product value, an original workflow diagram
+and a concise self-hosted quick start. It preserves the Android/self-hosted scope
+and optional RAGFlow boundary; no product behavior or deployment status changed.
