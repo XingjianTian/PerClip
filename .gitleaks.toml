@@ -1,0 +1,4 @@
+title = "PerClip staged privacy checks"
+
+[extend]
+useDefault = true

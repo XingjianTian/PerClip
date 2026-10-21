@@ -1,0 +1,8 @@
+services:
+  ragflow-task-worker:
+    image: perclip/ragflow-mac-worker:20261015-hardening
+    platform: linux/amd64
+    pull_policy: never
+    environment:
+      DOC_BULK_SIZE: "32"
+      TE_RUN_MODE: "0"

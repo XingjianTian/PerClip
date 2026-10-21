@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PerClip</string>
+    <string name="share_target_label">保存到 PerClip</string>
+    <string name="share_shortcut_short">保存</string>
+    <string name="share_shortcut_long">保存到 PersonalClips</string>
+    <string name="quick_settings_tile_label">PerClip 闪记</string>
+    <string name="accessibility_service_label">PerClip 当前屏幕闪记</string>
+    <string name="accessibility_service_description">读取当前屏幕可见文字，点通知栏闪记时自动保存。</string>
+    <string name="shortcut_quick_note_short">闪记</string>
+    <string name="shortcut_quick_note_long">新建 PerClip 闪记</string>
+    <string name="shortcut_recents_short">最近</string>
+    <string name="shortcut_recents_long">查看 PerClip 最近记录</string>
+    <string name="shortcut_settings_short">设置</string>
+    <string name="shortcut_settings_long">打开 PerClip 设置</string>
+</resources>

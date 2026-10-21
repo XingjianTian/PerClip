@@ -1,0 +1,79 @@
+{
+  "schema": "perclip.stage23-3b-synthetic.v1",
+  "label": "Stage 23.3B Synthetic v1",
+  "description": "Six fictional text memories retained for controlled PerClip-to-RAGFlow verification and Stage 23.4.",
+  "items": [
+    {
+      "key": "cobalt_compass",
+      "request_id": "perclip-stage23-3b-synthetic-v1-01",
+      "scenario": "short_text_and_exact_replay",
+      "title": "Stage 23.3B Synthetic — Cobalt compass",
+      "text": "STAGE23_3B_ANCHOR_COBALT This is synthetic test data. A fictional cobalt compass rests beside a paper observatory and points toward an imaginary violet moon.",
+      "retrieval_probes": [
+        "STAGE23_3B_ANCHOR_COBALT",
+        "Which imaginary instrument points toward the violet moon?"
+      ]
+    },
+    {
+      "key": "clockwork_greenhouse",
+      "request_id": "perclip-stage23-3b-synthetic-v1-02",
+      "scenario": "medium_topic_text",
+      "title": "Stage 23.3B Synthetic — Clockwork greenhouse",
+      "text": "STAGE23_3B_ANCHOR_GREENHOUSE This is synthetic test data. In a fictional clockwork greenhouse, ceramic sensors count make-believe raindrops while a paper gardener checks three blue valves. The harmless rehearsal records imaginary humidity, aligns a wooden ruler, resets a silver metronome, and signs a violet ledger. No person, location, account, device, or real operational event is represented.",
+      "retrieval_probes": [
+        "STAGE23_3B_ANCHOR_GREENHOUSE",
+        "What fictional place uses ceramic rain sensors and three blue valves?"
+      ]
+    },
+    {
+      "key": "paper_atlas",
+      "request_id": "perclip-stage23-3b-synthetic-v1-03",
+      "scenario": "markdown_heading_retrieval",
+      "title": "Stage 23.3B Synthetic — Paper atlas",
+      "text": "# Synthetic Paper Atlas\n\nThis entire document is fictional Stage 23.3B test data.\n\n## Paper Observatory\n\nSTAGE23_3B_ATLAS_FIRST A cardboard navigator calibrates a cobalt telescope, a felt weather vane, a ceramic dial, and a silver ribbon beneath an imaginary moon. The navigator writes every result in a violet ledger and compares a wooden compass with a painted horizon. The observatory, equipment, procedure, and record do not refer to a real person, place, organization, credential, or device.\n\n## Amber Tram Greenhouse\n\nAn imaginary amber tram carries a glass greenhouse across a tabletop map. Paper sensors count pretend raindrops while a clockwork gardener checks a cotton cloud, three blue valves, a mint label, and a wooden metronome. The repeated inspection creates coherent synthetic material for a later section without copying any existing memory or Dataset content.\n\n## Floating Library\n\nA mint-colored library floats above a model harbor. Its shelves hold blank maps, sugar stars, felt bookmarks, and harmless drawings of impossible machines. A paper librarian sorts each artifact by color and shape, resets a ceramic timer, and records a fictional humming tone on a violet card.\n\n## Crystal Umbrella Workshop\n\nSTAGE23_3B_ATLAS_MIDDLE Inside a paper moon museum, a clockwork artisan compares two crystal umbrellas beneath a cardboard rain machine. The middle checkpoint uniquely mentions an amber hinge, cobalt thread, mint label, wooden gauge, ceramic stand, and silver inspection card so retrieval must reach beyond the title and opening section.\n\n## Aurora Robot Garden\n\nPaper robots cultivate felt flowers beneath a painted aurora. The amber robot follows squares, the cobalt robot follows circles, and the mint robot follows triangles. Each pauses beside a ceramic marker and records a harmless checksum in a violet notebook before returning to an imaginary charging gazebo.\n\n## Violet Lighthouse\n\nSTAGE23_3B_ATLAS_LAST A paper archivist closes the fictional atlas beside a violet lighthouse on a cardboard coast. The archivist verifies a silver compass, mint telescope, amber ledger, wooden metronome, ceramic moon, and cobalt ribbon. This final anchor appears only in the last section so a matching retrieval result demonstrates coverage beyond the beginning and middle.",
+      "retrieval_probes": [
+        "STAGE23_3B_ATLAS_MIDDLE",
+        "Which fictional workshop uses an amber hinge and cobalt thread?",
+        "STAGE23_3B_ATLAS_LAST"
+      ]
+    },
+    {
+      "key": "cobalt_negative",
+      "request_id": "perclip-stage23-3b-synthetic-v1-04",
+      "scenario": "shared_keyword_negative_sample",
+      "title": "Stage 23.3B Synthetic — Cobalt negative sample",
+      "text": "STAGE23_3B_ANCHOR_COBALT_NEGATIVE This is synthetic test data. A cobalt-colored recipe card describes mint fog, sugar stars, and a cardboard comet. It deliberately shares the word cobalt with the compass note but contains no compass, observatory, or violet moon.",
+      "retrieval_probes": [
+        "STAGE23_3B_ANCHOR_COBALT_NEGATIVE",
+        "Which synthetic cobalt item is a recipe rather than an instrument?"
+      ]
+    },
+    {
+      "key": "ceramic_ferry",
+      "request_id": "perclip-stage23-3b-synthetic-v1-05",
+      "scenario": "restart_and_retrieval_control",
+      "title": "Stage 23.3B Synthetic — Ceramic ferry",
+      "text": "STAGE23_3B_ANCHOR_FERRY This is synthetic test data. A make-believe ceramic ferry crosses a tabletop ocean made from blue ribbon. Its paper captain checks a violet flag, three wooden buoys, and a clockwork tide gauge before delivering blank notebooks to an imaginary island.",
+      "retrieval_probes": [
+        "STAGE23_3B_ANCHOR_FERRY",
+        "What fictional vessel crosses an ocean made from blue ribbon?"
+      ]
+    },
+    {
+      "key": "indigo_airship_archive",
+      "request_id": "perclip-stage23-3b-synthetic-v1-06",
+      "scenario": "markdown_verified_multichunk",
+      "title": "Stage 23.3B Synthetic — Indigo airship archive",
+      "text": "# Synthetic Indigo Airship Archive\n\nThis entire long-form record is fictional Stage 23.3B test data. It describes no real person, place, organization, account, credential, device, journey, or operational event.\n\n## 01 — Origami Hangar\n\nSTAGE23_3B_AIRSHIP_FIRST In an imaginary origami hangar, an indigo airship rests above a tabletop valley painted with harmless watercolor squares. A paper mechanic inventories a copper propeller, three felt ladders, a mint toolbox, a ceramic whistle, and a silver map case. The mechanic turns a wooden dial exactly twice, compares a violet ribbon with a cardboard ruler, and writes a fictional inspection number on a blank amber card. A clockwork sparrow carries the card to a model tower while sugar stars hang from cotton thread. Every object and action exists only to make a deterministic synthetic retrieval passage.\n\n## 02 — Clockwork Departure Board\n\nA clockwork departure board displays invented destinations named Lantern Orchard, Quiet Comet, Paper Fjord, and Blueberry Observatory. Its wooden hands move through twelve painted symbols while a ceramic bell counts make-believe minutes. The airship crew consists only of folded-paper figures with color labels instead of names. One figure checks an amber compass, one balances a cobalt teacup, and one arranges mint envelopes in a silver tray. The board never shows a real date, route, address, reservation, or identifier. It simply supplies a second coherent section whose vocabulary differs from the hangar inventory.\n\n## 03 — Felt Cloud Workshop\n\nInside a felt cloud workshop, cardboard rollers shape cotton weather into circles, triangles, and spirals. An imaginary technician compares a violet pressure card with a wooden rain gauge, then places a ceramic moon beside a copper fan. The indigo airship receives four decorative clouds: one amber, one mint, one cobalt, and one silver. A paper notebook records invented values such as soft, quieter, rounder, and bright rather than measurements from any real sensor. The workshop paragraph is deliberately detailed so the parser must preserve useful text beyond the title and opening anchor.\n\n## 04 — Porcelain River Map\n\nThe next fictional room contains a porcelain river map assembled from blue ribbon, glass pebbles, and painted cardboard islands. A paper cartographer draws impossible bridges that loop upward into a lavender sky. The cartographer checks a mint telescope, a copper triangle, a felt bookmark, and three wooden buoys before stamping an empty silver passport made for toys. No geographic name or coordinate appears. The airship follows a dotted amber line across the model while a clockwork fish points toward an origami lighthouse. This section adds an independent scene for long-document pagination and retrieval coverage.\n\n## 05 — Sugar-Star Pantry\n\nA sugar-star pantry stores only fictional supplies: paper pears, ceramic biscuits, felt oranges, wooden clouds, and jars labeled with colors instead of ingredients. A cardboard steward counts seven violet spoons and places them beside an indigo kettle that cannot heat anything. The steward consults a silver recipe wheel, resets a mint metronome, and ties an amber ribbon around an empty copper box. The airship takes no food and carries no real cargo; the scene is an intentionally harmless block of synthetic prose. Repeated material names provide lexical continuity without borrowing private or production content.\n\n## 06 — Moon-Museum Atrium\n\nSTAGE23_3B_AIRSHIP_MIDDLE At the middle checkpoint, the indigo airship enters a fictional moon-museum atrium through a doorway shaped like a crystal umbrella. A clockwork curator demonstrates an amber hinge joined to cobalt thread, then places a mint label beneath a wooden astrolabe. Nearby, a ceramic pedestal supports a silver inspection card and a tiny violet rain machine. The unique middle anchor and the combination of umbrella, hinge, thread, astrolabe, and rain machine occur only in this section. A successful query for them must therefore reach beyond the opening hangar material and distinguish this passage from every other synthetic memory.\n\n## 07 — Painted Aurora Garden\n\nBeyond the atrium lies a painted aurora garden where paper robots cultivate felt flowers in geometric beds. The amber robot follows squares, the cobalt robot follows circles, the mint robot follows triangles, and the violet robot pauses beside silver stars. Each robot carries a blank wooden ledger and records fictional symbols after passing a ceramic marker. An indigo watering can releases strands of blue ribbon instead of water. The airship hovers over the cardboard gazebo while a clockwork moth rearranges copper leaves. This imaginary garden adds another self-contained topic without representing an actual automated system.\n\n## 08 — Quiet Comet Library\n\nA quiet comet library floats above a model harbor and contains only blank books, folded maps, sugar constellations, and harmless sketches of impossible machines. A paper librarian sorts each artifact by texture and color, aligns a ceramic timer with a mint ruler, and places a violet bookmark inside an empty silver atlas. The indigo airship deposits a cardboard catalog whose entries are deliberately fictional. A wooden telescope points toward a copper comet hanging from thread. No cited work, personal note, private document, or real publication appears in the library; it is synthetic filler with stable semantic structure.\n\n## 09 — Cardboard Tidal Laboratory\n\nIn a cardboard tidal laboratory, a clockwork gauge observes a tabletop ocean made from layered blue and indigo ribbons. Three wooden buoys mark an imaginary channel while a ceramic ferry carries blank notebooks between painted islands. A felt scientist compares an amber tide wheel, a mint flag, a copper shell, and a silver ruler, then records the invented result calm-and-square on a violet slate. The apparatus has no connection to a real ocean, vessel, laboratory, or measurement. This section intentionally echoes the shorter ferry memory while retaining the airship archive's separate identity and operation key.\n\n## 10 — Copper Echo Gallery\n\nA copper echo gallery contains twelve paper arches, each painted with a different harmless pattern. When a cardboard mallet touches an arch, a clockwork music box raises a colored flag instead of producing recorded audio. The fictional curator pairs indigo with triangles, amber with circles, mint with squares, violet with spirals, and silver with stars. The airship passes beneath a wooden mobile carrying ceramic moons and felt comets. An empty ledger describes the sequence using invented adjectives. The gallery adds long-form volume without any voice sample, biometric data, real recording, or external media.\n\n## 11 — Lantern Orchard Mooring\n\nAt the Lantern Orchard mooring, paper trees hold glass fruit illuminated by painted cardboard suns. An origami ground crew attaches the indigo airship to three felt posts using violet yarn. One figure checks a ceramic wind rose, another aligns a mint ladder, and a third places an amber seal on a blank silver crate. A copper lantern swings above a wooden platform while a clockwork rabbit counts imaginary arrivals. The mooring has no real schedule, passenger, cargo, address, or networked equipment. Its sole purpose is to create a late-document scene distinct from the closing lighthouse checkpoint.\n\n## 12 — Violet Lighthouse Ledger\n\nSTAGE23_3B_AIRSHIP_LAST The final checkpoint closes the synthetic archive beside a violet lighthouse on a cardboard coast. A paper archivist verifies an indigo sextant, a silver compass, a mint telescope, an amber ledger, a wooden metronome, a ceramic moon, and a copper ribbon. The archivist folds the inspection card into a star, places it inside an empty glass case, and marks the journey complete with a harmless cobalt stamp. This last anchor appears only at the end of the long document. Retrieving it demonstrates coverage beyond both the first origami hangar and the middle moon-museum atrium.",
+      "retrieval_probes": [
+        "STAGE23_3B_AIRSHIP_FIRST",
+        "Which fictional atrium joins an amber hinge to cobalt thread beneath a wooden astrolabe?",
+        "STAGE23_3B_AIRSHIP_LAST"
+      ]
+    }
+  ],
+  "exact_replay": {
+    "item_key": "cobalt_compass",
+    "request_id": "perclip-stage23-3b-synthetic-v1-01"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "entry_url": "https://rebind.example.test/article",
+  "steps": [
+    {
+      "connect_address": "private_rebind",
+      "resolution": "public",
+      "url": "https://rebind.example.test/article"
+    }
+  ]
+}

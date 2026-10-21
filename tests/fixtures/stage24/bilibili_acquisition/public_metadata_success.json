@@ -1,0 +1,13 @@
+{
+  "code": 0,
+  "message": "0",
+  "data": {
+    "bvid": "BV1AB411C7D9",
+    "title": "Synthetic frozen video title",
+    "desc": "Synthetic frozen public description for offline acquisition and recall verification.",
+    "owner": {
+      "name": "Synthetic frozen creator"
+    },
+    "pubdate": 1785542400
+  }
+}

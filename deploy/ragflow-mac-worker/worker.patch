@@ -1,0 +1,166 @@
+--- a/rag/svr/task_executor.py
++++ b/rag/svr/task_executor.py
+@@ -209,6 +209,7 @@
+         try:
+             redis_msg = next(UNACKED_ITERATOR)
+         except StopIteration:
++            UNACKED_ITERATOR = None
+             for svr_queue_name in svr_queue_names:
+                 redis_msg = REDIS_CONN.queue_consumer(svr_queue_name, SVR_CONSUMER_GROUP_NAME, CONSUMER_NAME)
+                 if redis_msg:
+@@ -225,42 +226,52 @@
+         redis_msg.ack()
+         return None, None
+
+-    canceled = False
+-    if msg.get("doc_id", "") in [GRAPH_RAPTOR_FAKE_DOC_ID, CANVAS_DEBUG_DOC_ID]:
+-        task = msg
+-        if task["task_type"] in PIPELINE_SPECIAL_PROGRESS_FREEZE_TASK_TYPES:
+-            task = TaskService.get_task(msg["id"], msg["doc_ids"])
+-            if task:
+-                task["doc_id"] = msg["doc_id"]
+-                task["doc_ids"] = msg.get("doc_ids", []) or []
+-    elif msg.get("task_type") == PipelineTaskType.MEMORY.lower():
+-        _, task_obj = TaskService.get_by_id(msg["id"])
+-        task = task_obj.to_dict()
+-    else:
+-        task = TaskService.get_task(msg["id"])
+-
+-    if task:
+-        canceled = has_canceled(task["id"])
+-    if not task or canceled:
+-        state = "is unknown" if not task else "has been cancelled"
+-        FAILED_TASKS += 1
+-        logging.warning(f"collect task {msg['id']} {state}")
+-        redis_msg.ack()
++    try:
++        # Terminal redeliveries must not reset progress or increment attempts.
++        if not msg.get("task_type") and msg.get("doc_id") not in [GRAPH_RAPTOR_FAKE_DOC_ID, CANVAS_DEBUG_DOC_ID]:
++            exists, stored = TaskService.get_by_id(msg["id"])
++            if exists and (stored.progress >= 1 or stored.progress < 0):
++                redis_msg.ack()
++                return None, None
++        canceled = False
++        if msg.get("doc_id", "") in [GRAPH_RAPTOR_FAKE_DOC_ID, CANVAS_DEBUG_DOC_ID]:
++            task = msg
++            if task["task_type"] in PIPELINE_SPECIAL_PROGRESS_FREEZE_TASK_TYPES:
++                task = TaskService.get_task(msg["id"], msg["doc_ids"])
++                if task:
++                    task["doc_id"] = msg["doc_id"]
++                    task["doc_ids"] = msg.get("doc_ids", []) or []
++        elif msg.get("task_type") == PipelineTaskType.MEMORY.lower():
++            _, task_obj = TaskService.get_by_id(msg["id"])
++            task = task_obj.to_dict()
++        else:
++            task = TaskService.get_task(msg["id"])
++
++        if task:
++            canceled = has_canceled(task["id"])
++        if not task or canceled:
++            state = "is unknown" if not task else "has been cancelled"
++            FAILED_TASKS += 1
++            logging.warning(f"collect task {msg['id']} {state}")
++            redis_msg.ack()
++            return None, None
++
++        task_type = msg.get("task_type", "")
++        task["task_type"] = task_type
++        if task_type[:8] == "dataflow":
++            task["tenant_id"] = msg["tenant_id"]
++            task["dataflow_id"] = msg["dataflow_id"]
++            task["kb_id"] = msg.get("kb_id", "")
++        if task_type[:6] == "memory":
++            task["memory_id"] = msg["memory_id"]
++            if msg.get("tenant_id"):
++                task["tenant_id"] = msg["tenant_id"]
++            task["source_id"] = msg["source_id"]
++            task["message_dict"] = msg["message_dict"]
++        return redis_msg, task
++    except Exception:
++        logging.exception("collect: preserving pending message after task lookup failure")
+         return None, None
+-
+-    task_type = msg.get("task_type", "")
+-    task["task_type"] = task_type
+-    if task_type[:8] == "dataflow":
+-        task["tenant_id"] = msg["tenant_id"]
+-        task["dataflow_id"] = msg["dataflow_id"]
+-        task["kb_id"] = msg.get("kb_id", "")
+-    if task_type[:6] == "memory":
+-        task["memory_id"] = msg["memory_id"]
+-        if msg.get("tenant_id"):
+-            task["tenant_id"] = msg["tenant_id"]
+-        task["source_id"] = msg["source_id"]
+-        task["message_dict"] = msg["message_dict"]
+-    return redis_msg, task
+
+
+ async def get_storage_binary(bucket, name):
+@@ -1746,6 +1757,16 @@
+             )
+             get_recording_context().save_func_return_value("PipelineOperationLogService.record_pipeline_operation", ret)
+
++    # Only ordinary document parsing is covered by this durable completion gate.
++    if not task.get("task_type"):
++        try:
++            exists, stored = TaskService.get_by_id(task_id)
++            if exists and 0 <= stored.progress < 1:
++                logging.warning("Preserving pending parse task without durable terminal state: %s", task_id)
++                return
++        except Exception:
++            logging.exception("Preserving pending parse task after terminal-state read failure")
++            return
+     redis_msg.ack()
+
+
+--- a/api/db/services/task_service.py
++++ b/api/db/services/task_service.py
+@@ -144,6 +144,28 @@
+
+     @classmethod
+     @DB.connection_context()
++    def complete_parse_task(cls, task_id, doc_id, kb_id, token_num, chunk_num):
++        """Commit ordinary parse counters and terminal state together, once per task."""
++        with DB.atomic():
++            changed = cls.model.update(progress=1.0).where(
++                (cls.model.id == task_id) & (cls.model.progress != 1.0)
++            ).execute()
++            if not changed:
++                cls.model.get_by_id(task_id)  # A deleted task must not count as success.
++                return
++            if Document.update(
++                token_num=Document.token_num + token_num,
++                chunk_num=Document.chunk_num + chunk_num,
++            ).where((Document.id == doc_id) & (Document.kb_id == kb_id)).execute() != 1:
++                raise LookupError("Parse completion document not found")
++            if Knowledgebase.update(
++                token_num=Knowledgebase.token_num + token_num,
++                chunk_num=Knowledgebase.chunk_num + chunk_num,
++            ).where(Knowledgebase.id == kb_id).execute() != 1:
++                raise LookupError("Parse completion knowledge base not found")
++
++    @classmethod
++    @DB.connection_context()
+     def get_tasks(cls, doc_id: str):
+         """Retrieve all tasks associated with a document.
+
+--- a/rag/svr/task_executor_refactor/task_handler.py
++++ b/rag/svr/task_executor_refactor/task_handler.py
+@@ -36,7 +36,7 @@
+     get_model_config_from_provider_instance
+ )
+ from api.db.services.llm_service import LLMBundle
+-from api.db.services.task_service import GRAPH_RAPTOR_FAKE_DOC_ID
++from api.db.services.task_service import GRAPH_RAPTOR_FAKE_DOC_ID, TaskService
+ from common.constants import LLMType
+ from common.exceptions import TaskCanceledException
+ from common.connection_utils import timeout
+@@ -500,7 +500,7 @@
+         if ctx.write_interceptor:
+             ctx.write_interceptor.intercept("DocumentService.increment_chunk_num")
+         else:
+-            DocumentService.increment_chunk_num(task_doc_id, task_dataset_id, token_count, chunk_count, 0)
++            TaskService.complete_parse_task(task_id, task_doc_id, task_dataset_id, token_count, chunk_count)
+
+         task_time_cost = timer() - task_start_ts
+         ctx.recording_context.record("task_status", "completed")

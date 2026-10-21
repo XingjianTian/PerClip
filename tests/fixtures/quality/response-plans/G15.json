@@ -1,0 +1,17 @@
+{
+  "entry_url": "https://example.test/large/article",
+  "max_bytes": 8192,
+  "steps": [
+    {
+      "body_size": 8193,
+      "connect_address": "validated",
+      "headers": {
+        "content-length": "8193",
+        "content-type": "text/html"
+      },
+      "resolution": "public",
+      "status": 200,
+      "url": "https://example.test/large/article"
+    }
+  ]
+}

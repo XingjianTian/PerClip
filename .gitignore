@@ -1,0 +1,87 @@
+.DS_Store
+._*
+
+# Android / Gradle
+.gradle/
+build/
+**/build/
+local.properties
+*.apk
+*.ap_
+*.aab
+*.keystore
+*.jks
+
+# Kotlin / IDE
+.idea/
+*.iml
+.kotlin/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Local secrets
+.env
+*.env
+!.env.example
+*.local
+*.pem
+*.p12
+*.mobileprovision
+
+# Runtime data / generated evidence
+/data/
+server/data/
+dist/
+artifacts/
+*.log
+tmp/
+
+# Public-source boundary: retain local operations and credentials privately.
+/.ai-bridge/
+.env.*
+!.env.example
+!.env.*.example
+*.private.json
+*.private.yaml
+*.private.yml
+*.private.env
+*.local.env
+*.local.json
+*.local.yaml
+*.local.yml
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+known_hosts
+known_hosts.*
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.sql.gz
+*.dump
+._*
+
+# Local UI QA recordings require separate visual and audio review.
+*.mp4
+*.mov
+
+# Private runtime configuration and publication boundaries.
+/.local-data/
+/deploy/generated/
+/outputs/
+/Screenshots/
+/DesignReferences/
+/docs/archive/
+/docs/evidence/

@@ -1,0 +1,23 @@
+[project]
+name = "perclip-ingest"
+version = "0.3.0"
+description = "Unified PerClip API and durable processing worker"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.116.0",
+    "python-multipart>=0.0.20",
+    "uvicorn[standard]>=0.35.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "httpx>=0.28.0",
+    "pytest>=8.4.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["perclip_ingest*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

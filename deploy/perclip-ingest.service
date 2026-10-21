@@ -1,0 +1,23 @@
+[Unit]
+Description=PerClip NAS Ingestion API
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/perclip/server
+EnvironmentFile=/etc/perclip/perclip-ingest.env
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/perclip/.venv/bin/uvicorn perclip_ingest.main:create_app --factory --host ${PERCLIP_HOST} --port ${PERCLIP_PORT}
+Restart=on-failure
+RestartSec=5
+User=perclip
+Group=perclip
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=read-only
+ReadWritePaths=/opt/perclip/server/data
+
+[Install]
+WantedBy=multi-user.target

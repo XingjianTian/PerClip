@@ -1,0 +1,166 @@
+{
+  "schema": "perclip.synthetic-ragflow-corpus.v1",
+  "description": "Fictional, synthetic-only fixtures for the isolated PerClip Architecture Test v1 Dataset.",
+  "items": [
+    {
+      "key": "seed_short",
+      "scenario": "short_text",
+      "retain": true,
+      "source_type": "text",
+      "title": "Synthetic short note",
+      "text": "PERCLIP_SYNTHETIC_ANCHOR_ALPHA The fictional cobalt teacup is stored beside the paper observatory.",
+      "topic_ids": ["topic_synthetic_objects"]
+    },
+    {
+      "key": "seed_long",
+      "scenario": "long_multichunk_text",
+      "retain": true,
+      "source_type": "text",
+      "title": "Synthetic long field log",
+      "text": "PERCLIP_SYNTHETIC_ANCHOR_BETA This entirely fictional field log describes a clockwork greenhouse, its ceramic sensors, and a harmless maintenance rehearsal.",
+      "repeat_text": " Each rehearsal cycle records imaginary humidity, checks the blue valve, compares the paper map, and signs the synthetic ledger without referring to any real person or place.",
+      "repeat_count": 90,
+      "topic_ids": ["topic_synthetic_engineering", "topic_long_form"]
+    },
+    {
+      "key": "seed_markdown",
+      "scenario": "markdown_headings",
+      "retain": true,
+      "source_type": "text",
+      "title": "Synthetic Markdown plan",
+      "text": "# Paper Moon Checklist\n\nPERCLIP_SYNTHETIC_ANCHOR_GAMMA\n\n## Materials\n\n- cardboard telescope\n- violet string\n\n## Result\n\nThe fictional observatory opens at noon.",
+      "topic_ids": ["topic_synthetic_plans"]
+    },
+    {
+      "key": "seed_bilingual",
+      "scenario": "bilingual",
+      "retain": true,
+      "source_type": "text",
+      "title": "双语合成备忘",
+      "text": "PERCLIP_SYNTHETIC_ANCHOR_DELTA 这是一条完全虚构的蓝色风筝测试记录。 The imaginary blue kite carries a paper compass for a synthetic demonstration.",
+      "topic_ids": ["topic_bilingual_synthetic"]
+    },
+    {
+      "key": "seed_similar_a",
+      "scenario": "high_similarity_a",
+      "retain": true,
+      "source_type": "text",
+      "title": "Amber tram calibration A",
+      "text": "PERCLIP_SYNTHETIC_ANCHOR_EPSILON The fictional amber tram calibration uses three wooden markers and a silver metronome before sunrise.",
+      "topic_ids": ["topic_synthetic_transit"]
+    },
+    {
+      "key": "seed_similar_b",
+      "scenario": "high_similarity_b",
+      "retain": true,
+      "source_type": "text",
+      "title": "Amber tram calibration B",
+      "text": "PERCLIP_SYNTHETIC_ANCHOR_ZETA The imaginary amber tram calibration uses three wooden markers and a silver metronome shortly before dawn.",
+      "topic_ids": ["topic_synthetic_transit"]
+    },
+    {
+      "key": "seed_different",
+      "scenario": "different_topic",
+      "retain": true,
+      "source_type": "text",
+      "title": "Fictional comet recipe",
+      "text": "PERCLIP_SYNTHETIC_ANCHOR_ETA A make-believe comet recipe combines sugar stars, mint fog, and a cardboard orbit for a classroom story.",
+      "topic_ids": ["topic_synthetic_cooking"]
+    },
+    {
+      "key": "seed_partial_rtf",
+      "scenario": "partial_usable",
+      "retain": true,
+      "source_type": "file",
+      "title": "Synthetic partial RTF",
+      "filename": "synthetic-partial.rtf",
+      "mime_type": "application/rtf",
+      "payload_text": "{\\rtf1\\ansi PERCLIP_SYNTHETIC_ANCHOR_THETA This fictional legacy note remains useful after safe partial extraction.}",
+      "topic_ids": ["topic_synthetic_legacy"]
+    },
+    {
+      "key": "failed_raw_fallback",
+      "scenario": "failed_raw_fallback_not_indexed",
+      "retain": false,
+      "source_type": "file",
+      "title": "Synthetic unsupported binary",
+      "filename": "synthetic-failed.doc",
+      "mime_type": "application/msword",
+      "payload_text": "PERCLIP_SYNTHETIC_ANCHOR_IOTA synthetic bytes that must not be treated as a successful canonical extraction",
+      "topic_ids": ["topic_synthetic_failure"]
+    },
+    {
+      "key": "recovery_disposable",
+      "scenario": "unknown_upload_recovery_and_restart",
+      "retain": false,
+      "source_type": "text",
+      "title": "Synthetic recovery note",
+      "text": "PERCLIP_SYNTHETIC_ANCHOR_KAPPA The fictional recovery beacon flashes twice after a simulated local checkpoint loss.",
+      "topic_ids": ["topic_synthetic_recovery"]
+    },
+    {
+      "key": "generation_disposable",
+      "scenario": "new_generation_old_active_preserved",
+      "retain": false,
+      "source_type": "text",
+      "title": "Synthetic generation one",
+      "text": "PERCLIP_SYNTHETIC_ANCHOR_LAMBDA_V1 The imaginary garden robot follows the first paper route.",
+      "replacement_text": "PERCLIP_SYNTHETIC_ANCHOR_LAMBDA_V2 The imaginary garden robot follows the revised violet route.",
+      "topic_ids": ["topic_synthetic_generation"]
+    },
+    {
+      "key": "delete_disposable",
+      "scenario": "detach_delete_verified",
+      "retain": false,
+      "source_type": "text",
+      "title": "Synthetic deletion target",
+      "text": "PERCLIP_SYNTHETIC_ANCHOR_MU The disposable paper lighthouse exists only for the isolated deletion test.",
+      "topic_ids": ["topic_synthetic_cleanup"]
+    },
+    {
+      "key": "real_multichunk_disposable",
+      "scenario": "real_multichunk_vector_coverage",
+      "retain": false,
+      "source_type": "text",
+      "title": "Synthetic multi-chunk clockwork atlas",
+      "paragraph_separator": "\n\n",
+      "paragraph_repeat": 6,
+      "paragraphs": [
+        "## Station 01 — Paper Observatory\n\nPERCLIP_SYNTHETIC_ANCHOR_OMICRON PERCLIP_MULTICHUNK_FIRST The fictional clockwork atlas begins in a paper observatory where cobalt gears label imaginary constellations. A cardboard navigator records each harmless calibration in a violet ledger, compares a wooden compass with a painted horizon, and checks that every invented symbol remains readable. The first rehearsal describes a brass telescope, a felt weather vane, a ceramic dial, a silver ribbon, and a small model moon. None of these objects refers to a real person, address, organization, account, device, or secret. The paragraph exists only to make the beginning of a synthetic long-form memory independently retrievable after RAGFlow divides the canonical text into multiple Chunks.",
+        "## Station 02 — Amber Greenhouse Tram\n\nThe second fictional station is a glass greenhouse carried by an amber tram. Paper sensors count make-believe raindrops while a clockwork gardener turns three blue valves in a safe rehearsal. The log repeats the sequence with distinct details: inspect the cotton cloud, align the cardboard ruler, polish the ceramic lens, wind the wooden metronome, and stamp the violet ticket. Every action is invented and deliberately verbose so the current newline-aware 512-token Dataset configuration receives substantial canonical content without changing its parser, delimiter, Chunk size, embedding model, or any production baseline.",
+        "## Station 03 — Floating Mint Library\n\nAt the third imaginary station, a mint-colored library floats above a model harbor. Its shelves contain blank maps, sugar stars, felt bookmarks, and harmless diagrams of impossible machines. A paper librarian sorts the artifacts by shape, then by color, then by a fictional humming tone. The synthetic report explains the same process in complete sentences so cleaning preserves ordinary Markdown paragraphs and does not collapse the material into a title-only test. No external facts are asserted, and no existing Dataset content is copied or paraphrased.",
+        "## Station 04 — Lavender Rover Canyon\n\nThe fourth rehearsal follows a cardboard rover through a lavender canyon painted on a classroom backdrop. It measures pretend shadows with a ribbon, compares four wooden markers, and sends a fictional status card to the paper observatory. The rover then checks an orange lantern, a cobalt umbrella, a silver bell, and a ceramic wheel before returning to its starting square. These deliberately varied nouns reduce accidental dependence on the first paragraph while keeping the entire fixture obviously synthetic and safe for disposable indexing.",
+        "## Station 05 — Folded Paper Orchestra\n\nIn the fifth section, an imaginary orchestra tunes instruments made from folded paper and soft felt. A clockwork conductor schedules a quiet calibration for the brass triangle, violet drum, mint flute, amber harp, and wooden chime. The report lists the order twice in prose, explains why the sequence is fictional, and notes that the performance has no audience, venue, date, or real-world association. This section adds length and semantic variety while remaining unrelated to any private project information.",
+        "## Station 06 — Model Comet Bakery\n\nThe sixth station contains a make-believe bakery for model comets. Its recipe combines cardboard orbit rings, sugar stars, mint fog, and a blue paper tail, then places the result beside a ceramic telescope for an invented science story. A wooden timer counts harmless rehearsal cycles while a silver spoon points toward a painted sky. The narrative is intentionally detailed enough to survive extraction and cleaning as a standalone paragraph, but every ingredient and instruction is fictional.",
+        "## Station 07 — Tabletop Amber Ferry\n\nThe seventh paragraph describes an amber ferry crossing a tabletop ocean made from folded fabric. A paper captain checks a violet compass, a cobalt flag, three wooden buoys, and a clockwork tide gauge. The ferry carries only blank notebooks and model lanterns, and its destination is an imaginary island drawn in chalk. The synthetic log records repeated checks of the flag, buoys, gauge, notebooks, and lanterns to contribute realistic long-form volume without representing a real journey or location.",
+        "## Station 08 — Crystal Umbrella Workshop\n\nPERCLIP_MULTICHUNK_MIDDLE The middle checkpoint is a fictional crystal umbrella workshop inside a paper moon museum. A clockwork artisan compares two harmless prototypes, traces a violet spiral on each handle, and places them beneath a cardboard rain machine. The middle anchor is unique to this paragraph so a retrieval hit must reach beyond the title and first section. Additional invented details include an amber hinge, cobalt thread, mint label, wooden gauge, ceramic stand, and silver inspection card. The workshop, museum, equipment, and procedure are entirely synthetic.",
+        "## Station 09 — Aurora Robot Garden\n\nThe ninth rehearsal takes place in an impossible garden where paper robots cultivate felt flowers under a painted aurora. Each robot follows a different wooden route, pauses beside a ceramic marker, and records a harmless checksum in a violet notebook. The report explains how the amber robot follows squares, the cobalt robot follows circles, and the mint robot follows triangles. These distinctions create a substantial independent passage while preserving a clearly fictional tone and avoiding any personal or operational data.",
+        "## Station 10 — Cardboard Submarine\n\nIn section ten, a cardboard submarine explores a glass bowl filled with blue ribbon instead of water. Its clockwork crew observes model coral, silver pebbles, mint flags, and a tiny paper lighthouse. The crew turns an amber dial, checks a wooden depth ruler, and writes an imaginary maintenance note after every cycle. The paragraph repeats no private terminology and serves only as safe bulk content for validating full Chunk enumeration and vector coverage.",
+        "## Station 11 — Observatory Kitchen\n\nThe eleventh station is a make-believe observatory kitchen where ceramic planets cool on wooden racks. A paper astronomer labels each model with a color, an invented orbit, and a harmless tasting note that is never consumed. The violet planet circles a cardboard lantern, the amber planet circles a felt cloud, and the cobalt planet circles a silver bell. This long synthetic description helps ensure later Chunks contain coherent content rather than filler characters or duplicated anchors.",
+        "## Station 12 — Notebook Tram Depot\n\nThe twelfth section documents a fictional tram depot built from notebooks. Clockwork inspectors examine a mint ticket press, an orange timetable, a blue paper rail, and three ceramic wheels. They compare the depot map with an imaginary constellation chart and record the result on a felt card. The sequence remains deliberately ordinary and verbose: inspect, compare, record, reset, and repeat. There is no real transit system, schedule, employee, passenger, or place behind the description.",
+        "## Station 13 — Balloon Weather Lab\n\nAt the thirteenth checkpoint, a cardboard balloon carries a wooden weather laboratory over a painted desert. Paper instruments observe pretend wind, felt clouds, silver dust, and violet sunlight. A clockwork recorder writes one fictional line for every instrument, then checks that the amber compass still points toward the model observatory. This passage adds a separate semantic scene near the end of the canonical generation so retrieval coverage is not concentrated in its opening material.",
+        "## Station 14 — Ceramic Harbor Crane\n\nThe fourteenth rehearsal returns to the paper harbor, where a ceramic crane arranges model crates by invented constellation. Each crate contains only blank cards, cotton stars, wooden rings, and harmless clockwork tokens. A mint lantern marks the first row, a cobalt lantern marks the second, and an amber lantern marks the third. The synthetic operator checks all rows, writes a fictional completion note, and prepares the final atlas section without introducing a real identity, address, credential, endpoint, or project detail.",
+        "## Station 15 — Violet Lighthouse\n\nPERCLIP_MULTICHUNK_LAST The final section closes the fictional clockwork atlas beside a violet lighthouse on a cardboard coast. A paper archivist verifies the silver compass, mint telescope, amber ledger, wooden metronome, ceramic moon, and cobalt ribbon, then seals the entirely imaginary rehearsal record. The last anchor appears only here so its retrieval result proves that the remote index can reach content beyond the first and middle sections. This disposable passage contains no real-world claim and must be detached, deleted, and verified absent after the multi-Chunk test."
+      ],
+      "topic_ids": ["topic_synthetic_multichunk"]
+    },
+    {
+      "key": "mode_off_probe",
+      "scenario": "ragflow_mode_off_zero_http",
+      "retain": false,
+      "source_type": "text",
+      "title": "Synthetic off-mode note",
+      "text": "PERCLIP_SYNTHETIC_ANCHOR_NU The fictional orange compass proves Core readiness with external indexing disabled.",
+      "topic_ids": ["topic_synthetic_modes"]
+    },
+    {
+      "key": "mode_qa_probe",
+      "scenario": "ragflow_mode_qa_capability_only",
+      "retain": false,
+      "source_type": "text",
+      "title": "Synthetic QA-mode note",
+      "text": "PERCLIP_SYNTHETIC_ANCHOR_XI The fictional glass umbrella proves capability-only QA mode without indexing.",
+      "topic_ids": ["topic_synthetic_modes"]
+    }
+  ]
+}

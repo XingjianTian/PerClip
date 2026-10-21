@@ -1,0 +1,22 @@
+[Unit]
+Description=PerClip Durable Processing Worker (operator-verified pinned container)
+After=docker.service network-online.target perclip-ingest.service
+Requires=docker.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+RuntimeDirectory=perclip
+RuntimeDirectoryMode=0700
+ExecStartPre=-@DOCKER@ rm perclip-worker
+ExecStart=@HOST_PYTHON@ @OPERATOR_PROXY@ --environment-file @ENV_FILE@ --socket @OPERATOR_SOCKET@ --socket-uid @RUNTIME_UID@ --socket-gid @RUNTIME_GID@ --verifier-script @OPERATOR_VERIFIER@ --docker @DOCKER@ -- @DOCKER@ run --rm --name perclip-worker --network host --read-only --tmpfs /tmp:rw,noexec,nosuid,size=64m --security-opt no-new-privileges --user @RUNTIME_UID@:@RUNTIME_GID@ --env-file @ENV_FILE@ --mount type=bind,src=@DATA_DIR@,dst=@DATA_DIR@ --mount type=bind,src=@ASSET_ROOT@,dst=@ASSET_ROOT@ --mount type=bind,src=@OPERATOR_SOCKET@,dst=@OPERATOR_SOCKET@ @IMAGE@ python -m tools.run_operator_verified_worker
+ExecStop=@DOCKER@ stop --time 30 perclip-worker
+Restart=always
+RestartSec=3
+TimeoutStartSec=90
+TimeoutStopSec=45
+KillMode=process
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target

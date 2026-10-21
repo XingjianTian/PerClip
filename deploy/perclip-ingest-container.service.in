@@ -1,0 +1,20 @@
+[Unit]
+Description=PerClip NAS Ingestion API (pinned container)
+After=docker.service network-online.target
+Requires=docker.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStartPre=-@DOCKER@ rm perclip-ingest
+ExecStart=@DOCKER@ run --rm --name perclip-ingest --network host --read-only --tmpfs /tmp:rw,noexec,nosuid,size=64m --security-opt no-new-privileges --user @RUNTIME_UID@:@RUNTIME_GID@ --env-file @ENV_FILE@ --mount type=bind,src=@DATA_DIR@,dst=@DATA_DIR@ --mount type=bind,src=@ASSET_ROOT@,dst=@ASSET_ROOT@ @IMAGE@ python -m uvicorn perclip_ingest.main:create_app --factory --host @HOST@ --port @PORT@
+ExecStop=@DOCKER@ stop --time 30 perclip-ingest
+Restart=always
+RestartSec=3
+TimeoutStartSec=90
+TimeoutStopSec=45
+KillMode=process
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target

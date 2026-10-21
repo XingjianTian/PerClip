@@ -1,0 +1,47 @@
+{
+  "schema_version": "perclip.stage24.bilibili-acquisition-fixture.v1",
+  "cases": [
+    {
+      "id": "desktop-video-success",
+      "source_url": "https://www.bilibili.com/video/BV1AB411C7D9",
+      "response_fixture": "public_metadata_success.json",
+      "expected": "partial"
+    },
+    {
+      "id": "mobile-video-success",
+      "source_url": "https://m.bilibili.com/video/BV1AB411C7D9/",
+      "response_fixture": "public_metadata_success.json",
+      "expected": "partial"
+    },
+    {
+      "id": "lookalike-host-declined",
+      "source_url": "https://www.bilibili.com.evil.example/video/BV1AB411C7D9",
+      "response_fixture": "",
+      "expected": "declined"
+    },
+    {
+      "id": "non-video-path-declined",
+      "source_url": "https://www.bilibili.com/read/BV1AB411C7D9",
+      "response_fixture": "",
+      "expected": "declined"
+    },
+    {
+      "id": "metadata-upstream-rejected",
+      "source_url": "https://www.bilibili.com/video/BV1AB411C7D9",
+      "response_fixture": "public_metadata_rejected.json",
+      "expected": "bilibili_metadata_unavailable"
+    },
+    {
+      "id": "metadata-description-missing",
+      "source_url": "https://www.bilibili.com/video/BV1AB411C7D9",
+      "response_fixture": "public_metadata_missing_description.json",
+      "expected": "bilibili_metadata_insufficient"
+    },
+    {
+      "id": "metadata-malformed",
+      "source_url": "https://www.bilibili.com/video/BV1AB411C7D9",
+      "response_fixture": "public_metadata_malformed.json",
+      "expected": "bilibili_metadata_invalid"
+    }
+  ]
+}

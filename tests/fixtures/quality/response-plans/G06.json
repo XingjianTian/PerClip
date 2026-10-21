@@ -1,0 +1,17 @@
+{
+  "entry_url": "https://example.test/repos/perclip-fixture-runner",
+  "max_redirects": 5,
+  "steps": [
+    {
+      "body_fixture": "web/github-readme.html",
+      "canonical_url": "",
+      "connect_address": "validated",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "resolution": "public",
+      "status": 200,
+      "url": "https://example.test/repos/perclip-fixture-runner"
+    }
+  ]
+}

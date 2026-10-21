@@ -1,0 +1,19 @@
+{
+  "entry_url": "https://example.test/articles/same-content?utm_source=alpha",
+  "steps": [
+    {
+      "body_fixture": "web/duplicate-variants.html",
+      "connect_address": "validated",
+      "headers": {
+        "content-type": "text/html"
+      },
+      "resolution": "public",
+      "status": 200,
+      "url": "https://example.test/articles/same-content"
+    }
+  ],
+  "variant_urls": [
+    "https://example.test/articles/same-content?utm_source=alpha",
+    "https://example.test/articles/same-content?ref=beta"
+  ]
+}

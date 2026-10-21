@@ -1,0 +1,11 @@
+{
+  "entry_url": "https://example.test/slow/article",
+  "steps": [
+    {
+      "connect_address": "validated",
+      "error": "timeout",
+      "resolution": "public",
+      "url": "https://example.test/slow/article"
+    }
+  ]
+}

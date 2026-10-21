@@ -1,0 +1,198 @@
+{
+  "baseline_mode": "deterministic_v7_semantic_recall",
+  "cases": [
+    {
+      "actual": {
+        "classifier_source": "exact_rule",
+        "enrichment_engine": "deterministic.v7",
+        "free_tags": [
+          "大模型",
+          "推理"
+        ],
+        "key_points": [
+          "通过批处理和 KV Cache 可以降低大模型推理成本。",
+          "文章比较了吞吐量、首 token 延迟和显存占用，并建议先按业务负载做基准测试。"
+        ],
+        "primary_topic": "ai_ml",
+        "route_decision_type": "default",
+        "route_target_name": "个人收藏",
+        "summary": "通过批处理和 KV Cache 可以降低大模型推理成本。文章比较了吞吐量、首 token 延迟和显存占用，并建议先按业务负载做基准测试。"
+      },
+      "checks": {
+        "fixed_topic": true,
+        "free_tag_precision": true,
+        "free_tag_recall": true,
+        "grounding": true,
+        "key_points_coverage": true,
+        "routing": true,
+        "summary_essence": true
+      },
+      "gaps": [],
+      "id": "R01",
+      "ready_semantic_pass": true
+    },
+    {
+      "actual": {
+        "classifier_source": "exact_rule",
+        "enrichment_engine": "deterministic.v7",
+        "free_tags": [
+          "Docker",
+          "GitHub"
+        ],
+        "key_points": [
+          "Docker 镜像应固定依赖版本，并在 GitHub Actions 中执行测试、镜像扫描和可重复构建。",
+          "部署前还要验证回滚路径。"
+        ],
+        "primary_topic": "software_automation",
+        "route_decision_type": "rule",
+        "route_target_name": "工程资料",
+        "summary": "Docker 镜像应固定依赖版本，并在 GitHub Actions 中执行测试、镜像扫描和可重复构建。部署前还要验证回滚路径。"
+      },
+      "checks": {
+        "fixed_topic": true,
+        "free_tag_precision": true,
+        "free_tag_recall": true,
+        "grounding": true,
+        "key_points_coverage": true,
+        "routing": true,
+        "summary_essence": true
+      },
+      "gaps": [],
+      "id": "R02",
+      "ready_semantic_pass": true
+    },
+    {
+      "actual": {
+        "classifier_source": "exact_rule",
+        "enrichment_engine": "deterministic.v7",
+        "free_tags": [
+          "西湖",
+          "旅行"
+        ],
+        "key_points": [
+          "周六上午游览西湖和灵隐寺，下午前往中国茶叶博物馆。",
+          "住宿选择地铁站附近的酒店，周日返程前预留两小时交通时间。"
+        ],
+        "primary_topic": "travel_places",
+        "route_decision_type": "default",
+        "route_target_name": "个人收藏",
+        "summary": "周六上午游览西湖和灵隐寺，下午前往中国茶叶博物馆。住宿选择地铁站附近的酒店，周日返程前预留两小时交通时间。"
+      },
+      "checks": {
+        "fixed_topic": true,
+        "free_tag_precision": true,
+        "free_tag_recall": true,
+        "grounding": true,
+        "key_points_coverage": true,
+        "routing": true,
+        "summary_essence": true
+      },
+      "gaps": [],
+      "id": "R03",
+      "ready_semantic_pass": true
+    },
+    {
+      "actual": {
+        "classifier_source": "exact_rule",
+        "enrichment_engine": "deterministic.v7",
+        "free_tags": [
+          "欧冠",
+          "比赛"
+        ],
+        "key_points": [
+          "本场欧冠比赛的高位逼抢改变了中场控球，主队在下半场通过边路传中扳平比分。",
+          "复盘重点是防守站位和替补调整。"
+        ],
+        "primary_topic": "football_sports",
+        "route_decision_type": "default",
+        "route_target_name": "个人收藏",
+        "summary": "本场欧冠比赛的高位逼抢改变了中场控球，主队在下半场通过边路传中扳平比分。复盘重点是防守站位和替补调整。"
+      },
+      "checks": {
+        "fixed_topic": true,
+        "free_tag_precision": true,
+        "free_tag_recall": true,
+        "grounding": true,
+        "key_points_coverage": true,
+        "routing": true,
+        "summary_essence": true
+      },
+      "gaps": [],
+      "id": "R04",
+      "ready_semantic_pass": true
+    },
+    {
+      "actual": {
+        "classifier_source": "exact_rule",
+        "enrichment_engine": "deterministic.v7",
+        "free_tags": [
+          "课程",
+          "实验"
+        ],
+        "key_points": [
+          "课程实验采用形成性评价：课前检查研究问题，课中记录实验过程，课后用量规反馈报告。",
+          "最终成绩结合过程证据与成果质量。"
+        ],
+        "primary_topic": "education_research",
+        "route_decision_type": "default",
+        "route_target_name": "个人收藏",
+        "summary": "课程实验采用形成性评价：课前检查研究问题，课中记录实验过程，课后用量规反馈报告。最终成绩结合过程证据与成果质量。"
+      },
+      "checks": {
+        "fixed_topic": true,
+        "free_tag_precision": true,
+        "free_tag_recall": true,
+        "grounding": true,
+        "key_points_coverage": true,
+        "routing": true,
+        "summary_essence": true
+      },
+      "gaps": [],
+      "id": "R05",
+      "ready_semantic_pass": true
+    },
+    {
+      "actual": {
+        "classifier_source": "unclassified",
+        "enrichment_engine": "deterministic.v7",
+        "free_tags": [],
+        "key_points": [],
+        "primary_topic": "unclassified",
+        "route_decision_type": "default",
+        "route_target_name": "个人收藏",
+        "summary": "稍后再看。"
+      },
+      "checks": {
+        "fixed_topic": true,
+        "free_tag_precision": true,
+        "free_tag_recall": true,
+        "grounding": true,
+        "key_points_coverage": true,
+        "routing": true,
+        "summary_essence": true
+      },
+      "gaps": [],
+      "id": "R06",
+      "ready_semantic_pass": true
+    }
+  ],
+  "corpus_hash": "d334d880cfae91f2e64ef6822af891a422e93941705e410a616db93bc8f48ffd",
+  "corpus_id": "q3-ready-memory-v1",
+  "perclip_commit": "8c6eac36279fe7b49e442d2095e11aa298316162",
+  "schema_version": "perclip.ready-memory-report.v1",
+  "summary": {
+    "case_count": 6,
+    "dimension_passed": {
+      "fixed_topic": 6,
+      "free_tag_precision": 6,
+      "free_tag_recall": 6,
+      "grounding": 6,
+      "key_points_coverage": 6,
+      "routing": 6,
+      "summary_essence": 6
+    },
+    "gap_counts": {},
+    "ready_semantic_passed": 6,
+    "repeatable": true
+  }
+}

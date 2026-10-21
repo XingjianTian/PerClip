@@ -1,0 +1,10 @@
+{
+  "entry_url": "http://[::1]/private",
+  "steps": [
+    {
+      "connect_address": "blocked",
+      "resolution": "private",
+      "url": "http://[::1]/private"
+    }
+  ]
+}

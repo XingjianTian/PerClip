@@ -1,0 +1,3368 @@
+{
+  "aggregate": {
+    "all_case_contract_match": {
+      "passed": 0,
+      "rate": 0.0,
+      "total": 26
+    },
+    "applicable_metric_result": {
+      "body_anchors": {
+        "eligible": 18,
+        "not_applicable": 8,
+        "passed": 17,
+        "rate": 0.9444
+      },
+      "canonical_url": {
+        "eligible": 22,
+        "not_applicable": 4,
+        "passed": 19,
+        "rate": 0.8636
+      },
+      "noise_residue": {
+        "eligible": 19,
+        "not_applicable": 7,
+        "passed": 16,
+        "rate": 0.8421
+      },
+      "projection_consumption": {
+        "eligible": 26,
+        "not_applicable": 0,
+        "passed": 26,
+        "rate": 1.0
+      },
+      "raw_asset_preservation": {
+        "eligible": 26,
+        "not_applicable": 0,
+        "passed": 26,
+        "rate": 1.0
+      },
+      "recall_eligibility": {
+        "eligible": 26,
+        "not_applicable": 0,
+        "passed": 17,
+        "rate": 0.6538
+      },
+      "retry_idempotency": {
+        "eligible": 26,
+        "not_applicable": 0,
+        "passed": 26,
+        "rate": 1.0
+      },
+      "routing": {
+        "eligible": 26,
+        "not_applicable": 0,
+        "passed": 18,
+        "rate": 0.6923
+      },
+      "safe_error": {
+        "eligible": 8,
+        "not_applicable": 18,
+        "passed": 7,
+        "rate": 0.875
+      },
+      "state_calibration": {
+        "eligible": 26,
+        "not_applicable": 0,
+        "passed": 15,
+        "rate": 0.5769
+      },
+      "tags": {
+        "eligible": 26,
+        "not_applicable": 0,
+        "passed": 0,
+        "rate": 0.0
+      },
+      "title_accuracy": {
+        "eligible": 26,
+        "not_applicable": 0,
+        "passed": 16,
+        "rate": 0.6154
+      }
+    },
+    "comparison": {
+      "baseline_cases": 26,
+      "comparison_mode": "baseline",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    "contract_mismatch_categories": {
+      "body_anchors": [
+        "G02"
+      ],
+      "canonical_url": [
+        "G08",
+        "G18",
+        "G37"
+      ],
+      "noise_residue": [
+        "G03",
+        "G04",
+        "G17"
+      ],
+      "recall_eligibility": [
+        "G10",
+        "G11",
+        "G12",
+        "G13",
+        "G14",
+        "G15",
+        "G16",
+        "G17",
+        "G22"
+      ],
+      "routing": [
+        "G10",
+        "G11",
+        "G12",
+        "G13",
+        "G14",
+        "G15",
+        "G16",
+        "G17"
+      ],
+      "safe_error": [
+        "G17"
+      ],
+      "state_calibration": [
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G09",
+        "G17",
+        "G18",
+        "G19",
+        "G20",
+        "G38",
+        "G39"
+      ],
+      "tags": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10",
+        "G11",
+        "G12",
+        "G13",
+        "G14",
+        "G15",
+        "G16",
+        "G17",
+        "G18",
+        "G19",
+        "G20",
+        "G21",
+        "G22",
+        "G37",
+        "G38",
+        "G39",
+        "G40"
+      ],
+      "title_accuracy": [
+        "G10",
+        "G11",
+        "G12",
+        "G13",
+        "G14",
+        "G15",
+        "G16",
+        "G17",
+        "G21",
+        "G22"
+      ]
+    },
+    "control_metrics": {
+      "fake_ragflow_fault_isolation": true,
+      "stale_token_rejected": true,
+      "worker_claims_only_next_job": true,
+      "worker_recovery": true
+    },
+    "failure_categories": {
+      "body_anchors": [
+        "G02"
+      ],
+      "canonical_url": [
+        "G08",
+        "G18",
+        "G37"
+      ],
+      "noise_residue": [
+        "G03",
+        "G04",
+        "G17"
+      ],
+      "recall_eligibility": [
+        "G10",
+        "G11",
+        "G12",
+        "G13",
+        "G14",
+        "G15",
+        "G16",
+        "G17",
+        "G22"
+      ],
+      "routing": [
+        "G10",
+        "G11",
+        "G12",
+        "G13",
+        "G14",
+        "G15",
+        "G16",
+        "G17"
+      ],
+      "safe_error": [
+        "G17"
+      ],
+      "state_calibration": [
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G09",
+        "G17",
+        "G18",
+        "G19",
+        "G20",
+        "G38",
+        "G39"
+      ],
+      "tags": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10",
+        "G11",
+        "G12",
+        "G13",
+        "G14",
+        "G15",
+        "G16",
+        "G17",
+        "G18",
+        "G19",
+        "G20",
+        "G21",
+        "G22",
+        "G37",
+        "G38",
+        "G39",
+        "G40"
+      ],
+      "title_accuracy": [
+        "G10",
+        "G11",
+        "G12",
+        "G13",
+        "G14",
+        "G15",
+        "G16",
+        "G17",
+        "G21",
+        "G22"
+      ]
+    },
+    "fixture_count": 26,
+    "local_fixture_pipeline_latency": {
+      "by_stage": {
+        "archive_original": {
+          "p50": 2.267,
+          "p95": 4.769
+        },
+        "clean": {
+          "p50": 1.749,
+          "p95": 3.959
+        },
+        "enrich": {
+          "p50": 2.565,
+          "p95": 4.718
+        },
+        "extract": {
+          "p50": 2.594,
+          "p95": 5.121
+        },
+        "index": {
+          "p50": 1.677,
+          "p95": 2.676
+        },
+        "route": {
+          "p50": 3.703,
+          "p95": 6.692
+        }
+      },
+      "end_to_end": {
+        "p50": 17.66,
+        "p95": 24.578
+      },
+      "excluded_boundaries": [
+        "real DNS",
+        "public network RTT",
+        "real webpage download",
+        "real NAS I/O",
+        "real OCR/ASR/LLM",
+        "real RAGFlow"
+      ],
+      "scope": "socket-free local fixtures on the current test host",
+      "unit": "ms"
+    }
+  },
+  "cases": [
+    {
+      "actual": {
+        "accepted": true,
+        "body": "离线队列复盘\n\n今天验证离线队列\n\n飞行模式下先进入本地队列\n\n重连后保持顺序",
+        "canonical_url": "",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "工作方法",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "text",
+          "离线队列复盘",
+          "今天验证离线队列",
+          "飞行模式下先进入本地队列"
+        ],
+        "title": "离线队列复盘",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": true,
+        "routing": true,
+        "safe_error": true,
+        "state_calibration": true,
+        "tags": false,
+        "title_accuracy": true
+      },
+      "end_to_end_ms": 24.578,
+      "expected": {
+        "body_anchors": [
+          "今天验证离线队列",
+          "重连后保持顺序"
+        ],
+        "canonical_url": "",
+        "excluded": [],
+        "recall_eligible": true,
+        "route": "工作方法",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "Android",
+          "离线队列"
+        ],
+        "title": "离线队列复盘"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G01",
+      "input_hash": "eb8fb7bc4474d8e4f0ca72a9feab1f0e6ecd3211941c2e46be42a6a1c6e8f0d3",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": true,
+          "passed": true
+        },
+        "canonical_url": {
+          "applicable": false,
+          "passed": null
+        },
+        "noise_residue": {
+          "applicable": false,
+          "passed": null
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": true
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": true
+        },
+        "safe_error": {
+          "applicable": false,
+          "passed": null
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": true
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": true
+        }
+      },
+      "safe_error": "",
+      "source_class": "android_quick_text",
+      "stage_timings_ms": {
+        "archive_original": 5.524,
+        "clean": 1.991,
+        "enrich": 7.766,
+        "extract": 1.917,
+        "index": 1.911,
+        "route": 3.208
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "长文整理实验\n\n第1节目标：合成事实 01 保持可追溯。\n\n第2节事实：合成事实 02 保持可追溯。\n\n第3节事实：合成事实 03 保持可追溯。\n\n第4节事实：合成事实 04 保持可追溯。\n\n第5节事实：合成事实 05 保持可追溯。\n\n第6节事实：合成事实 06 保持可追溯。\n\n第7节事实：合成事实 07 保持可追溯。\n\n第8节事实：合成事实 08 保持可追溯。\n\n第9节事实：合成事实 09 保持可追溯。\n\n第10节事实：合成事实 10 保持可追溯。\n\n第11节事实：合成事实 11 保持可追溯。\n\n第12节事实：合成事实 12 保持可追溯。\n\n第十二节结论：固定语料用于比较当前基线。",
+        "canonical_url": "",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "text",
+          "长文整理实验",
+          "节目标",
+          "合成事实"
+        ],
+        "title": "长文整理实验",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": false,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": true,
+        "routing": true,
+        "safe_error": true,
+        "state_calibration": true,
+        "tags": false,
+        "title_accuracy": true
+      },
+      "end_to_end_ms": 19.185,
+      "expected": {
+        "body_anchors": [
+          "第一节目标",
+          "合成事实 06",
+          "第十二节结论"
+        ],
+        "canonical_url": "",
+        "excluded": [
+          "-----"
+        ],
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "长文",
+          "整理"
+        ],
+        "title": "长文整理实验"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G02",
+      "input_hash": "42ef6945ad3c784fc080d1802c239e8f3f768595ac8c6fbd8b883fc49bdd7b5a",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": true,
+          "passed": false
+        },
+        "canonical_url": {
+          "applicable": false,
+          "passed": null
+        },
+        "noise_residue": {
+          "applicable": true,
+          "passed": true
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": true
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": true
+        },
+        "safe_error": {
+          "applicable": false,
+          "passed": null
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": true
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": true
+        }
+      },
+      "safe_error": "",
+      "source_class": "long_plain_text",
+      "stage_timings_ms": {
+        "archive_original": 2.945,
+        "clean": 4.086,
+        "enrich": 2.308,
+        "extract": 3.619,
+        "index": 1.832,
+        "route": 2.808
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "# 可恢复任务设计\n\n## 背景\n\n任务在中断后必须保留原始输入。\n\n```text\n\ndemo credential placeholder: [redacted]\n\n<!-- synthetic editorial note -->\n\n## 验证清单\n\n检查幂等、租约与安全错误。",
+        "canonical_url": "",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "text",
+          "可恢复任务设计",
+          "背景",
+          "任务在中断后必须保留原始"
+        ],
+        "title": "可恢复任务设计",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": false,
+        "recall_eligibility": true,
+        "routing": true,
+        "safe_error": true,
+        "state_calibration": true,
+        "tags": false,
+        "title_accuracy": true
+      },
+      "end_to_end_ms": 14.639,
+      "expected": {
+        "body_anchors": [
+          "## 背景",
+          "## 验证清单"
+        ],
+        "canonical_url": "",
+        "excluded": [
+          "demo credential placeholder",
+          "synthetic editorial note"
+        ],
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "任务系统",
+          "可靠性"
+        ],
+        "title": "可恢复任务设计"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G03",
+      "input_hash": "aa617189704b9a77acc2343d1658e53f12bc4fff4a7509646828dc5602513814",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": true,
+          "passed": true
+        },
+        "canonical_url": {
+          "applicable": false,
+          "passed": null
+        },
+        "noise_residue": {
+          "applicable": true,
+          "passed": false
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": true
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": true
+        },
+        "safe_error": {
+          "applicable": false,
+          "passed": null
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": true
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": true
+        }
+      },
+      "safe_error": "",
+      "source_class": "markdown",
+      "stage_timings_ms": {
+        "archive_original": 2.051,
+        "clean": 1.726,
+        "enrich": 2.359,
+        "extract": 1.574,
+        "index": 1.656,
+        "route": 3.722
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "本地优先的知识整理 合成站点页眉\n\n本地优先的知识整理\n\n本地优先减少入口摩擦。\n\n统一收集后再做确定性清洗。\n\n原始内容始终可追溯。",
+        "canonical_url": "https://example.test/articles/local-first",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "partial",
+        "tags": [
+          "url",
+          "text",
+          "本地优先的知识整理",
+          "合成站点页眉",
+          "本地优先减少入口摩擦"
+        ],
+        "title": "本地优先的知识整理",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": false,
+        "recall_eligibility": true,
+        "routing": true,
+        "safe_error": true,
+        "state_calibration": false,
+        "tags": false,
+        "title_accuracy": true
+      },
+      "end_to_end_ms": 19.792,
+      "expected": {
+        "body_anchors": [
+          "本地优先减少入口摩擦",
+          "原始内容始终可追溯"
+        ],
+        "canonical_url": "https://example.test/articles/local-first",
+        "excluded": [
+          "合成站点页眉",
+          "订阅通讯",
+          "推荐课程"
+        ],
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "知识管理",
+          "本地优先"
+        ],
+        "title": "本地优先的知识整理"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G04",
+      "input_hash": "49e2b8e8d133ef315b0968493e10e8b07a33a076bed9f7393d839b7825b387c5",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": true,
+          "passed": true
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": true
+        },
+        "noise_residue": {
+          "applicable": true,
+          "passed": false
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": true
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": true
+        },
+        "safe_error": {
+          "applicable": false,
+          "passed": null
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": false
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": true
+        }
+      },
+      "safe_error": "",
+      "source_class": "synthetic_web",
+      "stage_timings_ms": {
+        "archive_original": 4.769,
+        "clean": 1.825,
+        "enrich": 3.368,
+        "extract": 3.748,
+        "index": 1.638,
+        "route": 2.846
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "阅读清单工具发布测试版 合成站点页眉\n\n阅读清单工具发布测试版\n\n工具今天发布测试版。\n\n团队将记录离线反馈。\n\n下月复盘反馈。",
+        "canonical_url": "https://example.test/news/reading-tool-beta",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "partial",
+        "tags": [
+          "url",
+          "text",
+          "阅读清单工具发布测试版",
+          "合成站点页眉",
+          "工具今天发布测试版"
+        ],
+        "title": "阅读清单工具发布测试版",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": true,
+        "routing": true,
+        "safe_error": true,
+        "state_calibration": false,
+        "tags": false,
+        "title_accuracy": true
+      },
+      "end_to_end_ms": 16.34,
+      "expected": {
+        "body_anchors": [
+          "工具今天发布测试版",
+          "下月复盘反馈"
+        ],
+        "canonical_url": "https://example.test/news/reading-tool-beta",
+        "excluded": [
+          "接受 Cookie",
+          "实时行情",
+          "相关新闻"
+        ],
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "产品动态",
+          "阅读"
+        ],
+        "title": "阅读清单工具发布测试版"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G05",
+      "input_hash": "b5d60c19b98df20f99c28887fa7e5ff05053004d41d56cd8451a4a040559c2be",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": true,
+          "passed": true
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": true
+        },
+        "noise_residue": {
+          "applicable": true,
+          "passed": true
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": true
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": true
+        },
+        "safe_error": {
+          "applicable": false,
+          "passed": null
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": false
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": true
+        }
+      },
+      "safe_error": "",
+      "source_class": "synthetic_web",
+      "stage_timings_ms": {
+        "archive_original": 2.188,
+        "clean": 1.711,
+        "enrich": 2.321,
+        "extract": 3.346,
+        "index": 1.618,
+        "route": 3.467
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "PerClip Fixture Runner 合成站点页眉\n\nPerClip Fixture Runner\n\n## Install\n\nRun the local deterministic evaluator.\n\n## License\n\nSynthetic fixtures use CC0.",
+        "canonical_url": "https://example.test/repos/perclip-fixture-runner",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "工作方法",
+        "safe_error": "",
+        "state": "partial",
+        "tags": [
+          "url",
+          "text",
+          "perclip",
+          "fixture",
+          "runner"
+        ],
+        "title": "PerClip Fixture Runner",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": true,
+        "routing": true,
+        "safe_error": true,
+        "state_calibration": false,
+        "tags": false,
+        "title_accuracy": true
+      },
+      "end_to_end_ms": 16.04,
+      "expected": {
+        "body_anchors": [
+          "## Install",
+          "## License"
+        ],
+        "canonical_url": "https://example.test/repos/perclip-fixture-runner",
+        "excluded": [
+          "Repository navigation",
+          "File tree reactions"
+        ],
+        "recall_eligible": true,
+        "route": "工作方法",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "GitHub",
+          "测试工具"
+        ],
+        "title": "PerClip Fixture Runner"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G06",
+      "input_hash": "ba4716d15c834de03ba45e7fa1c5e869e2d225ca7be85ce932ef4479c772beea",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": true,
+          "passed": true
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": true
+        },
+        "noise_residue": {
+          "applicable": true,
+          "passed": true
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": true
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": true
+        },
+        "safe_error": {
+          "applicable": false,
+          "passed": null
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": false
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": true
+        }
+      },
+      "safe_error": "",
+      "source_class": "synthetic_web",
+      "stage_timings_ms": {
+        "archive_original": 2.131,
+        "clean": 1.833,
+        "enrich": 2.31,
+        "extract": 2.381,
+        "index": 1.733,
+        "route": 4.06
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "Idempotent request API 合成站点页眉\n\nIdempotent request API\n\nStable request identifiers prevent duplicate writes.\n\nThe first accepted result is durable.\n\nReplay returns the same result.",
+        "canonical_url": "https://example.test/docs/idempotent-requests",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "partial",
+        "tags": [
+          "url",
+          "text",
+          "idempotent",
+          "request",
+          "合成站点页眉"
+        ],
+        "title": "Idempotent request API",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": true,
+        "routing": true,
+        "safe_error": true,
+        "state_calibration": false,
+        "tags": false,
+        "title_accuracy": true
+      },
+      "end_to_end_ms": 16.235,
+      "expected": {
+        "body_anchors": [
+          "Stable request identifiers",
+          "Replay returns the same result"
+        ],
+        "canonical_url": "https://example.test/docs/idempotent-requests",
+        "excluded": [
+          "Version picker",
+          "Was this helpful",
+          "Related cards"
+        ],
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "幂等",
+          "API"
+        ],
+        "title": "Idempotent request API"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G07",
+      "input_hash": "c193dc0a6727d0e9f8f16de64d4578649fec38865abe2b37e714ca4263fad117",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": true,
+          "passed": true
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": true
+        },
+        "noise_residue": {
+          "applicable": true,
+          "passed": true
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": true
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": true
+        },
+        "safe_error": {
+          "applicable": false,
+          "passed": null
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": false
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": true
+        }
+      },
+      "safe_error": "",
+      "source_class": "synthetic_web",
+      "stage_timings_ms": {
+        "archive_original": 2.105,
+        "clean": 1.728,
+        "enrich": 3.151,
+        "extract": 2.321,
+        "index": 1.62,
+        "route": 3.764
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "内容清洗的边界 合成站点页眉\n\n内容清洗的边界\n\n正文从第一页开始。\n\n本页只保留已经完整获得的事实。\n\n后续页未自动抓取。",
+        "canonical_url": "https://example.test/cleaning/boundaries?page=1",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "partial",
+        "tags": [
+          "url",
+          "text",
+          "内容清洗的边界",
+          "合成站点页眉",
+          "正文从第一页开始"
+        ],
+        "title": "内容清洗的边界",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": false,
+        "noise_residue": true,
+        "recall_eligibility": true,
+        "routing": true,
+        "safe_error": true,
+        "state_calibration": true,
+        "tags": false,
+        "title_accuracy": true
+      },
+      "end_to_end_ms": 16.817,
+      "expected": {
+        "body_anchors": [
+          "正文从第一页开始",
+          "后续页未自动抓取"
+        ],
+        "canonical_url": "https://example.test/cleaning/boundaries",
+        "excluded": [
+          "第 1 页 / 共 3 页",
+          "下一页精彩预告"
+        ],
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "partial",
+        "tags": [
+          "内容清洗",
+          "网页"
+        ],
+        "title": "内容清洗的边界"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G08",
+      "input_hash": "3744b91800264fa9a9e196ff1ebae22a4fd590380ddc7d3786b4dbd0f9ae4ab9",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": true,
+          "passed": true
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": false
+        },
+        "noise_residue": {
+          "applicable": true,
+          "passed": true
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": true
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": true
+        },
+        "safe_error": {
+          "applicable": false,
+          "passed": null
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": true
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": true
+        }
+      },
+      "safe_error": "",
+      "source_class": "synthetic_web",
+      "stage_timings_ms": {
+        "archive_original": 2.119,
+        "clean": 2.486,
+        "enrich": 2.252,
+        "extract": 3.229,
+        "index": 1.649,
+        "route": 3.565
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "重定向后的规范地址 合成站点页眉\n\n重定向后的规范地址\n\n最终页面保留正文。\n\n每一跳都重新验证。\n\n来源链可审计。",
+        "canonical_url": "https://example.test/final/redirected",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "partial",
+        "tags": [
+          "url",
+          "text",
+          "重定向后的规范地址",
+          "合成站点页眉",
+          "最终页面保留正文"
+        ],
+        "title": "重定向后的规范地址",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": true,
+        "routing": true,
+        "safe_error": true,
+        "state_calibration": false,
+        "tags": false,
+        "title_accuracy": true
+      },
+      "end_to_end_ms": 17.188,
+      "expected": {
+        "body_anchors": [
+          "最终页面保留正文",
+          "来源链可审计"
+        ],
+        "canonical_url": "https://example.test/final/redirected",
+        "excluded": [
+          "正在跳转"
+        ],
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "URL",
+          "溯源"
+        ],
+        "title": "重定向后的规范地址"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G09",
+      "input_hash": "6407d07aaa0f93eba868a28b83bf0b1d6d4cb1bf84fc319dc4abc7ea6d6a5cc6",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": true,
+          "passed": true
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": true
+        },
+        "noise_residue": {
+          "applicable": true,
+          "passed": true
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": true
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": true
+        },
+        "safe_error": {
+          "applicable": false,
+          "passed": null
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": false
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": true
+        }
+      },
+      "safe_error": "",
+      "source_class": "synthetic_web",
+      "stage_timings_ms": {
+        "archive_original": 2.462,
+        "clean": 1.946,
+        "enrich": 3.081,
+        "extract": 2.594,
+        "index": 1.677,
+        "route": 3.741
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "https://example.test/loop-a",
+        "canonical_url": "https://example.test/loop-a",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "redirect_limit_exceeded",
+        "state": "failed",
+        "tags": [
+          "url",
+          "text",
+          "https",
+          "example",
+          "test"
+        ],
+        "title": "https://example.test/loop-a",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": false,
+        "routing": false,
+        "safe_error": true,
+        "state_calibration": true,
+        "tags": false,
+        "title_accuracy": false
+      },
+      "end_to_end_ms": 17.474,
+      "expected": {
+        "body_anchors": [],
+        "canonical_url": "https://example.test/loop-a",
+        "excluded": [],
+        "recall_eligible": false,
+        "route": "收件箱",
+        "safe_error": "redirect_limit_exceeded",
+        "state": "failed",
+        "tags": [
+          "抓取失败"
+        ],
+        "title": "无法读取网页"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G10",
+      "input_hash": "a7b94563d322d9366c80538fe0d52cdb8d91e95e1f7a2ac35e08162d52dfcaab",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": false,
+          "passed": null
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": true
+        },
+        "noise_residue": {
+          "applicable": false,
+          "passed": null
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": false
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": false
+        },
+        "safe_error": {
+          "applicable": true,
+          "passed": true
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": true
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": false
+        }
+      },
+      "safe_error": "redirect_limit_exceeded",
+      "source_class": "redirect_loop",
+      "stage_timings_ms": {
+        "archive_original": 2.119,
+        "clean": 1.734,
+        "enrich": 3.072,
+        "extract": 4.543,
+        "index": 1.629,
+        "route": 2.758
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "http://127.0.0.1/private",
+        "canonical_url": "http://127.0.0.1/private",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "private_address_blocked",
+        "state": "failed",
+        "tags": [
+          "url",
+          "text",
+          "http",
+          "private"
+        ],
+        "title": "http://127.0.0.1/private",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": false,
+        "routing": false,
+        "safe_error": true,
+        "state_calibration": true,
+        "tags": false,
+        "title_accuracy": false
+      },
+      "end_to_end_ms": 18.076,
+      "expected": {
+        "body_anchors": [],
+        "canonical_url": "http://127.0.0.1/private",
+        "excluded": [],
+        "recall_eligible": false,
+        "route": "收件箱",
+        "safe_error": "private_address_blocked",
+        "state": "failed",
+        "tags": [
+          "抓取失败"
+        ],
+        "title": "受限地址"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G11",
+      "input_hash": "7cadc20f6d869ff33ce5aec64df6ff369e657c251bc9420109378a2275bc2737",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": false,
+          "passed": null
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": true
+        },
+        "noise_residue": {
+          "applicable": false,
+          "passed": null
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": false
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": false
+        },
+        "safe_error": {
+          "applicable": true,
+          "passed": true
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": true
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": false
+        }
+      },
+      "safe_error": "private_address_blocked",
+      "source_class": "loopback_block",
+      "stage_timings_ms": {
+        "archive_original": 3.289,
+        "clean": 1.702,
+        "enrich": 2.268,
+        "extract": 2.554,
+        "index": 1.771,
+        "route": 4.859
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "http://[::1]/private",
+        "canonical_url": "http://[::1]/private",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "private_address_blocked",
+        "state": "failed",
+        "tags": [
+          "url",
+          "text",
+          "http",
+          "private"
+        ],
+        "title": "http://[::1]/private",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": false,
+        "routing": false,
+        "safe_error": true,
+        "state_calibration": true,
+        "tags": false,
+        "title_accuracy": false
+      },
+      "end_to_end_ms": 19.763,
+      "expected": {
+        "body_anchors": [],
+        "canonical_url": "http://[::1]/private",
+        "excluded": [],
+        "recall_eligible": false,
+        "route": "收件箱",
+        "safe_error": "private_address_blocked",
+        "state": "failed",
+        "tags": [
+          "抓取失败"
+        ],
+        "title": "受限地址"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G12",
+      "input_hash": "ab98d1a492238106e0282dac027666cca07a7b5a01361c04aee41578e6c1ace7",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": false,
+          "passed": null
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": true
+        },
+        "noise_residue": {
+          "applicable": false,
+          "passed": null
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": false
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": false
+        },
+        "safe_error": {
+          "applicable": true,
+          "passed": true
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": true
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": false
+        }
+      },
+      "safe_error": "private_address_blocked",
+      "source_class": "private_ipv6_block",
+      "stage_timings_ms": {
+        "archive_original": 4.346,
+        "clean": 1.748,
+        "enrich": 2.403,
+        "extract": 4.456,
+        "index": 1.579,
+        "route": 3.703
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "https://rebind.example.test/article",
+        "canonical_url": "https://rebind.example.test/article",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "private_address_blocked",
+        "state": "failed",
+        "tags": [
+          "url",
+          "text",
+          "https",
+          "rebind",
+          "example"
+        ],
+        "title": "https://rebind.example.test/article",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": false,
+        "routing": false,
+        "safe_error": true,
+        "state_calibration": true,
+        "tags": false,
+        "title_accuracy": false
+      },
+      "end_to_end_ms": 17.422,
+      "expected": {
+        "body_anchors": [],
+        "canonical_url": "https://rebind.example.test/article",
+        "excluded": [],
+        "recall_eligible": false,
+        "route": "收件箱",
+        "safe_error": "private_address_blocked",
+        "state": "failed",
+        "tags": [
+          "抓取失败"
+        ],
+        "title": "地址校验失败"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G13",
+      "input_hash": "73f4be22f6c6e1d93edfbc018a0b4a3b12722012ac71e9804f4b14a0f9eb2886",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": false,
+          "passed": null
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": true
+        },
+        "noise_residue": {
+          "applicable": false,
+          "passed": null
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": false
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": false
+        },
+        "safe_error": {
+          "applicable": true,
+          "passed": true
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": true
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": false
+        }
+      },
+      "safe_error": "private_address_blocked",
+      "source_class": "dns_rebind",
+      "stage_timings_ms": {
+        "archive_original": 2.267,
+        "clean": 1.692,
+        "enrich": 2.215,
+        "extract": 5.113,
+        "index": 1.694,
+        "route": 2.82
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "https://example.test/slow/article",
+        "canonical_url": "https://example.test/slow/article",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "web_fetch_failed",
+        "state": "failed",
+        "tags": [
+          "url",
+          "text",
+          "https",
+          "example",
+          "test"
+        ],
+        "title": "https://example.test/slow/article",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": false,
+        "routing": false,
+        "safe_error": true,
+        "state_calibration": true,
+        "tags": false,
+        "title_accuracy": false
+      },
+      "end_to_end_ms": 17.66,
+      "expected": {
+        "body_anchors": [],
+        "canonical_url": "https://example.test/slow/article",
+        "excluded": [],
+        "recall_eligible": false,
+        "route": "收件箱",
+        "safe_error": "web_fetch_failed",
+        "state": "failed",
+        "tags": [
+          "抓取失败"
+        ],
+        "title": "网页读取超时"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G14",
+      "input_hash": "cb55e3c0fc97e550fe29996514c08a2ddd4ea1c02c7fa2e9999daef17da7c327",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": false,
+          "passed": null
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": true
+        },
+        "noise_residue": {
+          "applicable": false,
+          "passed": null
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": false
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": false
+        },
+        "safe_error": {
+          "applicable": true,
+          "passed": true
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": true
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": false
+        }
+      },
+      "safe_error": "web_fetch_failed",
+      "source_class": "timeout",
+      "stage_timings_ms": {
+        "archive_original": 2.506,
+        "clean": 1.665,
+        "enrich": 3.945,
+        "extract": 2.439,
+        "index": 2.676,
+        "route": 2.847
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "https://example.test/large/article",
+        "canonical_url": "https://example.test/large/article",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "response_too_large",
+        "state": "failed",
+        "tags": [
+          "url",
+          "text",
+          "https",
+          "example",
+          "test"
+        ],
+        "title": "https://example.test/large/article",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": false,
+        "routing": false,
+        "safe_error": true,
+        "state_calibration": true,
+        "tags": false,
+        "title_accuracy": false
+      },
+      "end_to_end_ms": 15.909,
+      "expected": {
+        "body_anchors": [],
+        "canonical_url": "https://example.test/large/article",
+        "excluded": [],
+        "recall_eligible": false,
+        "route": "收件箱",
+        "safe_error": "response_too_large",
+        "state": "failed",
+        "tags": [
+          "抓取失败"
+        ],
+        "title": "响应超过安全上限"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G15",
+      "input_hash": "5923254b185c87e61d110fa6de0a7fdb26aeee448e113da8ec3e3492b9cd0e21",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": false,
+          "passed": null
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": true
+        },
+        "noise_residue": {
+          "applicable": false,
+          "passed": null
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": false
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": false
+        },
+        "safe_error": {
+          "applicable": true,
+          "passed": true
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": true
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": false
+        }
+      },
+      "safe_error": "response_too_large",
+      "source_class": "oversize",
+      "stage_timings_ms": {
+        "archive_original": 2.321,
+        "clean": 1.844,
+        "enrich": 3.333,
+        "extract": 2.319,
+        "index": 1.663,
+        "route": 2.84
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "https://example.test/mismatch",
+        "canonical_url": "https://example.test/mismatch",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "unsupported_content_type",
+        "state": "failed",
+        "tags": [
+          "url",
+          "text",
+          "https",
+          "example",
+          "test"
+        ],
+        "title": "https://example.test/mismatch",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": false,
+        "routing": false,
+        "safe_error": true,
+        "state_calibration": true,
+        "tags": false,
+        "title_accuracy": false
+      },
+      "end_to_end_ms": 20.065,
+      "expected": {
+        "body_anchors": [],
+        "canonical_url": "https://example.test/mismatch",
+        "excluded": [
+          "mislabeled payload"
+        ],
+        "recall_eligible": false,
+        "route": "收件箱",
+        "safe_error": "unsupported_content_type",
+        "state": "failed",
+        "tags": [
+          "抓取失败"
+        ],
+        "title": "内容类型不匹配"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G16",
+      "input_hash": "8578f4cd58dba69dcfe8e8ab225d9c952acba7b561cda937f80b5eb651d3a572",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": false,
+          "passed": null
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": true
+        },
+        "noise_residue": {
+          "applicable": true,
+          "passed": true
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": false
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": false
+        },
+        "safe_error": {
+          "applicable": true,
+          "passed": true
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": true
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": false
+        }
+      },
+      "safe_error": "unsupported_content_type",
+      "source_class": "mime_mismatch",
+      "stage_timings_ms": {
+        "archive_original": 2.221,
+        "clean": 1.677,
+        "enrich": 2.248,
+        "extract": 5.244,
+        "index": 1.677,
+        "route": 5.445
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "PERCLIP_SYNTHETIC_UNSUPPORTED_BINARY",
+        "canonical_url": "",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "partial:bin",
+        "tags": [
+          "file",
+          "perclip_synthetic_unsupported_bi",
+          "nary"
+        ],
+        "title": "PERCLIP_SYNTHETIC_UNSUPPORTED_BINARY",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": false,
+        "recall_eligibility": false,
+        "routing": false,
+        "safe_error": false,
+        "state_calibration": false,
+        "tags": false,
+        "title_accuracy": false
+      },
+      "end_to_end_ms": 20.734,
+      "expected": {
+        "body_anchors": [],
+        "canonical_url": "",
+        "excluded": [
+          "PERCLIP_SYNTHETIC_UNSUPPORTED_BINARY"
+        ],
+        "recall_eligible": false,
+        "route": "收件箱",
+        "safe_error": "unsupported_media_type",
+        "state": "failed",
+        "tags": [
+          "不支持格式"
+        ],
+        "title": "unsupported.bin"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G17",
+      "input_hash": "1c067415b228853a74da1bfcaa84dc67e78badf5b086e1643162100aacaaa9a2",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": false,
+          "passed": null
+        },
+        "canonical_url": {
+          "applicable": false,
+          "passed": null
+        },
+        "noise_residue": {
+          "applicable": true,
+          "passed": false
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": false
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": false
+        },
+        "safe_error": {
+          "applicable": true,
+          "passed": false
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": false
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": false
+        }
+      },
+      "safe_error": "",
+      "source_class": "unsupported_binary",
+      "stage_timings_ms": {
+        "archive_original": 2.399,
+        "clean": 2.717,
+        "enrich": 2.734,
+        "extract": 2.49,
+        "index": 1.822,
+        "route": 6.692
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "相对规范链接 合成站点页眉\n\n相对规范链接\n\n规范地址可安全解析。\n\n相对链接基于最终响应地址。\n\n查询参数被保留。",
+        "canonical_url": "https://example.test/start/canonical",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "partial",
+        "tags": [
+          "url",
+          "text",
+          "相对规范链接",
+          "合成站点页眉",
+          "规范地址可安全解析"
+        ],
+        "title": "相对规范链接",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": false,
+        "noise_residue": true,
+        "recall_eligibility": true,
+        "routing": true,
+        "safe_error": true,
+        "state_calibration": false,
+        "tags": false,
+        "title_accuracy": true
+      },
+      "end_to_end_ms": 26.442,
+      "expected": {
+        "body_anchors": [
+          "规范地址可安全解析",
+          "查询参数被保留"
+        ],
+        "canonical_url": "https://example.test/articles/canonical?id=7",
+        "excluded": [
+          "Alternate language"
+        ],
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "canonical",
+          "URL"
+        ],
+        "title": "相对规范链接"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G18",
+      "input_hash": "c1a7e16a22e7070bfb2808af8be0617bbcbac15c296a95296be4d1026c4f1da3",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": true,
+          "passed": true
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": false
+        },
+        "noise_residue": {
+          "applicable": true,
+          "passed": true
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": true
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": true
+        },
+        "safe_error": {
+          "applicable": false,
+          "passed": null
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": false
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": true
+        }
+      },
+      "safe_error": "",
+      "source_class": "synthetic_web",
+      "stage_timings_ms": {
+        "archive_original": 2.138,
+        "clean": 3.682,
+        "enrich": 3.383,
+        "extract": 4.611,
+        "index": 3.849,
+        "route": 7.226
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "如何判断网页正文提取质量？ 合成站点页眉\n\n如何判断网页正文提取质量？\n\n先定义正文范围。\n\n检查必要事实是否保留。\n\n再比较噪声比例。",
+        "canonical_url": "https://example.test/questions/extraction-quality",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "partial",
+        "tags": [
+          "url",
+          "text",
+          "如何判断网页正文提取质量",
+          "合成站点页眉",
+          "先定义正文范围"
+        ],
+        "title": "如何判断网页正文提取质量？",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": true,
+        "routing": true,
+        "safe_error": true,
+        "state_calibration": false,
+        "tags": false,
+        "title_accuracy": true
+      },
+      "end_to_end_ms": 20.239,
+      "expected": {
+        "body_anchors": [
+          "先定义正文范围",
+          "再比较噪声比例"
+        ],
+        "canonical_url": "https://example.test/questions/extraction-quality",
+        "excluded": [
+          "author@example.invalid",
+          "回答评论",
+          "相关问题"
+        ],
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "质量评估",
+          "问答"
+        ],
+        "title": "如何判断网页正文提取质量？"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G19",
+      "input_hash": "dfe6435f42fe1804514f4846859837f12d5d741c53150fee44ebd7c9c390ec3d",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": true,
+          "passed": true
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": true
+        },
+        "noise_residue": {
+          "applicable": true,
+          "passed": true
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": true
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": true
+        },
+        "safe_error": {
+          "applicable": false,
+          "passed": null
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": false
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": true
+        }
+      },
+      "safe_error": "",
+      "source_class": "synthetic_web",
+      "stage_timings_ms": {
+        "archive_original": 2.224,
+        "clean": 3.788,
+        "enrich": 2.565,
+        "extract": 5.121,
+        "index": 1.67,
+        "route": 3.195
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "三步整理每周阅读清单 合成站点页眉\n\n三步整理每周阅读清单\n\n先统一收集入口。\n\n工作日只做轻量标记。\n\n周末完成回顾。",
+        "canonical_url": "https://example.test/posts/weekly-reading",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "生活记录",
+        "safe_error": "",
+        "state": "partial",
+        "tags": [
+          "url",
+          "text",
+          "三步整理每周阅读清单",
+          "合成站点页眉",
+          "先统一收集入口"
+        ],
+        "title": "三步整理每周阅读清单",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": true,
+        "routing": true,
+        "safe_error": true,
+        "state_calibration": false,
+        "tags": false,
+        "title_accuracy": true
+      },
+      "end_to_end_ms": 17.829,
+      "expected": {
+        "body_anchors": [
+          "先统一收集入口",
+          "周末完成回顾"
+        ],
+        "canonical_url": "https://example.test/posts/weekly-reading",
+        "excluded": [
+          "点赞 999",
+          "评论区",
+          "推荐流"
+        ],
+        "recall_eligible": true,
+        "route": "生活记录",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "阅读",
+          "生活方式"
+        ],
+        "title": "三步整理每周阅读清单"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G20",
+      "input_hash": "8240518162fa3c8a0f7e15c34e9b98386dcb44890027751179209200db493eb0",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": true,
+          "passed": true
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": true
+        },
+        "noise_residue": {
+          "applicable": true,
+          "passed": true
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": true
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": true
+        },
+        "safe_error": {
+          "applicable": false,
+          "passed": null
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": false
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": true
+        }
+      },
+      "safe_error": "",
+      "source_class": "synthetic_web",
+      "stage_timings_ms": {
+        "archive_original": 2.008,
+        "clean": 1.732,
+        "enrich": 4.718,
+        "extract": 2.277,
+        "index": 1.661,
+        "route": 3.882
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "合成站点页眉\n\n正文首句作为候选。\n\n后续句子提供确定性内容。\n\n不得编造站点名。",
+        "canonical_url": "https://example.test/articles/no-title",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "partial",
+        "tags": [
+          "url",
+          "text",
+          "合成站点页眉",
+          "正文首句作为候选",
+          "后续句子提供确定性内容"
+        ],
+        "title": "合成站点页眉",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": true,
+        "routing": true,
+        "safe_error": true,
+        "state_calibration": true,
+        "tags": false,
+        "title_accuracy": false
+      },
+      "end_to_end_ms": 15.459,
+      "expected": {
+        "body_anchors": [
+          "正文首句作为候选",
+          "不得编造站点名"
+        ],
+        "canonical_url": "https://example.test/articles/no-title",
+        "excluded": [
+          "Untitled"
+        ],
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "partial",
+        "tags": [
+          "标题回退",
+          "网页"
+        ],
+        "title": "正文首句作为候选"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G21",
+      "input_hash": "4607fc9740d3029f3a6751977b968d2346e5672cd05db51e41d249c3e602660d",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": true,
+          "passed": true
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": true
+        },
+        "noise_residue": {
+          "applicable": true,
+          "passed": true
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": true
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": true
+        },
+        "safe_error": {
+          "applicable": false,
+          "passed": null
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": true
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": false
+        }
+      },
+      "safe_error": "",
+      "source_class": "synthetic_web",
+      "stage_timings_ms": {
+        "archive_original": 2.11,
+        "clean": 1.81,
+        "enrich": 3.204,
+        "extract": 2.273,
+        "index": 1.726,
+        "route": 2.81
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "需要浏览器渲染",
+        "canonical_url": "https://example.test/app/note/42",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "收件箱",
+        "safe_error": "",
+        "state": "partial",
+        "tags": [
+          "url",
+          "text",
+          "需要浏览器渲染"
+        ],
+        "title": "需要浏览器渲染",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": false,
+        "routing": true,
+        "safe_error": true,
+        "state_calibration": true,
+        "tags": false,
+        "title_accuracy": false
+      },
+      "end_to_end_ms": 17.999,
+      "expected": {
+        "body_anchors": [
+          "需要浏览器渲染"
+        ],
+        "canonical_url": "https://example.test/app/note/42",
+        "excluded": [
+          "bundle.synthetic.js",
+          "preload-manifest"
+        ],
+        "recall_eligible": false,
+        "route": "收件箱",
+        "safe_error": "",
+        "state": "partial",
+        "tags": [
+          "动态网页",
+          "待增强"
+        ],
+        "title": "动态页面未完整读取"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G22",
+      "input_hash": "42ad04c1f97ae8537f455176889d337d42d80c609f46c122b5aafc12bf2208fc",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": true,
+          "passed": true
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": true
+        },
+        "noise_residue": {
+          "applicable": true,
+          "passed": true
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": false
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": true
+        },
+        "safe_error": {
+          "applicable": false,
+          "passed": null
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": true
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": false
+        }
+      },
+      "safe_error": "",
+      "source_class": "synthetic_web",
+      "stage_timings_ms": {
+        "archive_original": 2.386,
+        "clean": 1.661,
+        "enrich": 2.236,
+        "extract": 3.258,
+        "index": 1.692,
+        "route": 5.194
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "缓存刷新检查\n\n覆盖安装后检查桌面图标\n\n清除仅测试包缓存\n\n记录 OEM 差异",
+        "canonical_url": "",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "工作方法",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "text",
+          "缓存刷新检查",
+          "覆盖安装后检查桌面图标",
+          "清除仅测试包缓存"
+        ],
+        "title": "缓存刷新检查",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": false,
+        "noise_residue": true,
+        "recall_eligibility": true,
+        "routing": true,
+        "safe_error": true,
+        "state_calibration": true,
+        "tags": false,
+        "title_accuracy": true
+      },
+      "end_to_end_ms": 16.678,
+      "expected": {
+        "body_anchors": [
+          "覆盖安装后检查桌面图标",
+          "记录 OEM 差异"
+        ],
+        "canonical_url": "https://example.test/checklists/launcher-cache",
+        "excluded": [
+          "share-app boilerplate"
+        ],
+        "recall_eligible": true,
+        "route": "工作方法",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "Android",
+          "图标测试"
+        ],
+        "title": "缓存刷新检查"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G37",
+      "input_hash": "c581383082b9c765455267d904c37e9aa9fec1a35af1f9b6e30b1190efa034f6",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": true,
+          "passed": true
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": false
+        },
+        "noise_residue": {
+          "applicable": true,
+          "passed": true
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": true
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": true
+        },
+        "safe_error": {
+          "applicable": false,
+          "passed": null
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": true
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": true
+        }
+      },
+      "safe_error": "",
+      "source_class": "share_text_url",
+      "stage_timings_ms": {
+        "archive_original": 4.096,
+        "clean": 1.706,
+        "enrich": 2.401,
+        "extract": 1.547,
+        "index": 1.614,
+        "route": 3.803
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "同一文章的两个入口 合成站点页眉\n\n同一文章的两个入口\n\n规范地址用于聚合。\n\n两个来源事件仍然独立。\n\n来源事件仍分别保留。",
+        "canonical_url": "https://example.test/articles/same-content",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "partial",
+        "tags": [
+          "url",
+          "text",
+          "同一文章的两个入口",
+          "合成站点页眉",
+          "规范地址用于聚合"
+        ],
+        "title": "同一文章的两个入口",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": true,
+        "routing": true,
+        "safe_error": true,
+        "state_calibration": false,
+        "tags": false,
+        "title_accuracy": true
+      },
+      "end_to_end_ms": 18.53,
+      "expected": {
+        "body_anchors": [
+          "规范地址用于聚合",
+          "来源事件仍分别保留"
+        ],
+        "canonical_url": "https://example.test/articles/same-content",
+        "excluded": [
+          "UTM 分享按钮"
+        ],
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "去重",
+          "canonical"
+        ],
+        "title": "同一文章的两个入口"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G38",
+      "input_hash": "6c713da0e2514696266bb557b8e8c29f147c97392bbad8b16dacdf284f3c2a2f",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": true,
+          "passed": true
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": true
+        },
+        "noise_residue": {
+          "applicable": true,
+          "passed": true
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": true
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": true
+        },
+        "safe_error": {
+          "applicable": false,
+          "passed": null
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": false
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": true
+        }
+      },
+      "safe_error": "",
+      "source_class": "canonical_duplicate",
+      "stage_timings_ms": {
+        "archive_original": 2.058,
+        "clean": 3.959,
+        "enrich": 3.878,
+        "extract": 2.232,
+        "index": 1.755,
+        "route": 3.064
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "Local-first 知识工作流 合成站点页眉\n\nLocal-first 知识工作流\n\nCapture locally before enrichment.\n\nKeep deterministic lineage.\n\n保留原始 provenance。",
+        "canonical_url": "https://example.test/articles/bilingual",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "partial",
+        "tags": [
+          "url",
+          "text",
+          "local-first",
+          "知识工作流",
+          "合成站点页眉"
+        ],
+        "title": "Local-first 知识工作流",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": true,
+        "routing": true,
+        "safe_error": true,
+        "state_calibration": false,
+        "tags": false,
+        "title_accuracy": true
+      },
+      "end_to_end_ms": 17.606,
+      "expected": {
+        "body_anchors": [
+          "Capture locally",
+          "保留原始 provenance"
+        ],
+        "canonical_url": "https://example.test/articles/bilingual",
+        "excluded": [
+          "Language switcher",
+          "Translated navigation"
+        ],
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "双语",
+          "knowledge workflow"
+        ],
+        "title": "Local-first 知识工作流"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G39",
+      "input_hash": "8e157e8e21c73bce3d6a0b5dc78e06b44664e111f911ba354107585c6458bef7",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": true,
+          "passed": true
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": true
+        },
+        "noise_residue": {
+          "applicable": true,
+          "passed": true
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": true
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": true
+        },
+        "safe_error": {
+          "applicable": false,
+          "passed": null
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": false
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": true
+        }
+      },
+      "safe_error": "",
+      "source_class": "bilingual_web",
+      "stage_timings_ms": {
+        "archive_original": 3.937,
+        "clean": 1.684,
+        "enrich": 2.178,
+        "extract": 3.391,
+        "index": 1.676,
+        "route": 3.198
+      }
+    },
+    {
+      "actual": {
+        "accepted": true,
+        "body": "鲁棒清洗的压力样本\n\n有效正文第一段。\n\n有效事实 01：固定压力样本保持顺序。\n\n有效事实 02：固定压力样本保持顺序。\n\n有效事实 03：固定压力样本保持顺序。\n\n有效事实 04：固定压力样本保持顺序。\n\n有效事实 05：固定压力样本保持顺序。\n\n有效事实 06：固定压力样本保持顺序。\n\n有效事实 07：固定压力样本保持顺序。\n\n有效事实 08：固定压力样本保持顺序。\n\n有效事实 09：固定压力样本保持顺序。\n\n有效事实 10：固定压力样本保持顺序。\n\n有效事实 11：固定压力样本保持顺序。\n\n有效事实 12：固定压力样本保持顺序。\n\n有效事实 13：固定压力样本保持顺序。\n\n有效事实 14：固定压力样本保持顺序。\n\n有效事实 15：固定压力样本保持顺序。\n\n有效事实 16：固定压力样本保持顺序。\n\n有效事实 17：固定压力样本保持顺序。\n\n有效事实 18：固定压力样本保持顺序。\n\n有效事实 19：固定压力样本保持顺序。\n\n有效事实 20：固定压力样本保持顺序。\n\n有效事实 21：固定压力样本保持顺序。\n\n有效事实 22：固定压力样本保持顺序。\n\n有效事实 23：固定压力样本保持顺序。\n\n有效事实 24：固定压力样本保持顺序。\n\n有效事实 25：固定压力样本保持顺序。\n\n有效正文最终结论。",
+        "canonical_url": "https://example.test/stress/long-noisy",
+        "projection_consumed": true,
+        "raw_asset_preserved": true,
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "url",
+          "text",
+          "鲁棒清洗的压力样本",
+          "有效正文第一段",
+          "有效事实"
+        ],
+        "title": "鲁棒清洗的压力样本",
+        "unverified_partial_body_retained": false
+      },
+      "all_case_contract_match": false,
+      "comparison_to_previous": "baseline",
+      "contract_matches": {
+        "body_anchors": true,
+        "canonical_url": true,
+        "noise_residue": true,
+        "recall_eligibility": true,
+        "routing": true,
+        "safe_error": true,
+        "state_calibration": true,
+        "tags": false,
+        "title_accuracy": true
+      },
+      "end_to_end_ms": 15.867,
+      "expected": {
+        "body_anchors": [
+          "有效正文第一段",
+          "有效事实 13",
+          "有效正文最终结论"
+        ],
+        "canonical_url": "https://example.test/stress/long-noisy",
+        "excluded": [
+          "推荐内容 30",
+          "评论噪声 050",
+          "法律页脚"
+        ],
+        "recall_eligible": true,
+        "route": "研究资料",
+        "safe_error": "",
+        "state": "completed",
+        "tags": [
+          "压力测试",
+          "内容清洗"
+        ],
+        "title": "鲁棒清洗的压力样本"
+      },
+      "fixture_version": "q0-web-v1",
+      "id": "G40",
+      "input_hash": "30f8872e2ff4abc8efe0af6c7f00e6529d7fdf77972807fa970cea566ad94b40",
+      "metric_results": {
+        "body_anchors": {
+          "applicable": true,
+          "passed": true
+        },
+        "canonical_url": {
+          "applicable": true,
+          "passed": true
+        },
+        "noise_residue": {
+          "applicable": true,
+          "passed": true
+        },
+        "projection_consumption": {
+          "applicable": true,
+          "passed": true
+        },
+        "raw_asset_preservation": {
+          "applicable": true,
+          "passed": true
+        },
+        "recall_eligibility": {
+          "applicable": true,
+          "passed": true
+        },
+        "retry_idempotency": {
+          "applicable": true,
+          "passed": true
+        },
+        "routing": {
+          "applicable": true,
+          "passed": true
+        },
+        "safe_error": {
+          "applicable": false,
+          "passed": null
+        },
+        "state_calibration": {
+          "applicable": true,
+          "passed": true
+        },
+        "tags": {
+          "applicable": true,
+          "passed": false
+        },
+        "title_accuracy": {
+          "applicable": true,
+          "passed": true
+        }
+      },
+      "safe_error": "",
+      "source_class": "long_noisy_web",
+      "stage_timings_ms": {
+        "archive_original": 2.048,
+        "clean": 1.749,
+        "enrich": 2.492,
+        "extract": 2.58,
+        "index": 1.651,
+        "route": 3.775
+      }
+    }
+  ],
+  "engine_versions": {
+    "archive_original": "filesystem/v1",
+    "clean": "deterministic-cleaner/v1",
+    "enrich": "deterministic.v1/v1",
+    "evaluator": "perclip-q0-evaluator/v2",
+    "extract": "builtin-extractor/v1",
+    "index": "ragflow/v1",
+    "route": "perclip-routing/v1"
+  },
+  "fixture_version": "q0-web-v1",
+  "manifest_input_hash": "9247815c9cad5bb6beb6528919cb37d565ce78c03b3acb7ab01149d49f6a05aa",
+  "perclip_commit": "df4108d9f13213dfd17f45bb97bb1da35ab4e8dc",
+  "schema_version": "perclip.quality.q0.v2"
+}

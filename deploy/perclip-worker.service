@@ -1,0 +1,23 @@
+[Unit]
+Description=PerClip Durable Processing Worker
+After=network-online.target perclip-ingest.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/perclip/server
+EnvironmentFile=/etc/perclip/perclip-ingest.env
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/perclip/.venv/bin/python -m perclip_ingest.worker
+Restart=on-failure
+RestartSec=5
+User=perclip
+Group=perclip
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=read-only
+ReadWritePaths=/opt/perclip/server/data /srv/personal-clips
+
+[Install]
+WantedBy=multi-user.target

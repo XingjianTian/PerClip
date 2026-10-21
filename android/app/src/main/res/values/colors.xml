@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="perclip_yellow">#FFD43B</color>
+    <color name="perclip_ink">#18181B</color>
+    <color name="perclip_notification_title">#18181B</color>
+    <color name="perclip_notification_accent">#B683F2</color>
+    <color name="perclip_notification_action_background">#B683F2</color>
+    <color name="perclip_notification_button_text">#FFFFFF</color>
+</resources>

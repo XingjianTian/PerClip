@@ -1,0 +1,15 @@
+{
+  "entry_url": "https://example.test/mismatch",
+  "steps": [
+    {
+      "connect_address": "validated",
+      "headers": {
+        "content-type": "image/png"
+      },
+      "inline_body": "<html><p>mislabeled payload</p></html>",
+      "resolution": "public",
+      "status": 200,
+      "url": "https://example.test/mismatch"
+    }
+  ]
+}

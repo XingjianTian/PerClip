@@ -1,0 +1,1724 @@
+{
+  "cases": [
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "bilibili-001",
+      "source_platform": "bilibili"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "bilibili-002",
+      "source_platform": "bilibili"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "bilibili-003",
+      "source_platform": "bilibili"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "bilibili-004",
+      "source_platform": "bilibili"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "bilibili-005",
+      "source_platform": "bilibili"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "bilibili-006",
+      "source_platform": "bilibili"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "bilibili-007",
+      "source_platform": "bilibili"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "bilibili-008",
+      "source_platform": "bilibili"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "bilibili-009",
+      "source_platform": "bilibili"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "bilibili-010",
+      "source_platform": "bilibili"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "douyin-001",
+      "source_platform": "douyin"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "douyin-002",
+      "source_platform": "douyin"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "douyin-003",
+      "source_platform": "douyin"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "douyin-004",
+      "source_platform": "douyin"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "douyin-005",
+      "source_platform": "douyin"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "douyin-006",
+      "source_platform": "douyin"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "douyin-007",
+      "source_platform": "douyin"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "douyin-008",
+      "source_platform": "douyin"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "douyin-009",
+      "source_platform": "douyin"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "douyin-010",
+      "source_platform": "douyin"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "explicit_unknown",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": false,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": false,
+      "core_record_complete": true,
+      "core_record_resolved": false,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": "未明确来源"
+      },
+      "gaps": [],
+      "resolved_gaps": [
+        "publisher"
+      ],
+      "sample_id": "web-001",
+      "source_platform": "web"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "web-002",
+      "source_platform": "web"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "web-003",
+      "source_platform": "web"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "web-004",
+      "source_platform": "web"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "web-005",
+      "source_platform": "web"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "explicit_unknown",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": false,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": false,
+      "core_record_complete": true,
+      "core_record_resolved": false,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": "未明确来源"
+      },
+      "gaps": [],
+      "resolved_gaps": [
+        "publisher"
+      ],
+      "sample_id": "web-006",
+      "source_platform": "web"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "web-007",
+      "source_platform": "web"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "web-008",
+      "source_platform": "web"
+    },
+    {
+      "availability_states": {
+        "core_content": "explicit_unavailable",
+        "recall_projection": "resolved",
+        "source_identity": "explicit_unknown",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": false,
+        "publisher": false,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": false,
+      "core_record_complete": true,
+      "core_record_resolved": false,
+      "display_fallbacks": {
+        "core_content": "内容暂不可用",
+        "source_identity": "未明确来源"
+      },
+      "gaps": [],
+      "resolved_gaps": [
+        "publisher",
+        "core_content"
+      ],
+      "sample_id": "web-009",
+      "source_platform": "web"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "web-010",
+      "source_platform": "web"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "wechat-001",
+      "source_platform": "wechat_official_account"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "wechat-002",
+      "source_platform": "wechat_official_account"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "wechat-003",
+      "source_platform": "wechat_official_account"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "wechat-004",
+      "source_platform": "wechat_official_account"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "wechat-005",
+      "source_platform": "wechat_official_account"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "wechat-006",
+      "source_platform": "wechat_official_account"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "wechat-007",
+      "source_platform": "wechat_official_account"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "wechat-008",
+      "source_platform": "wechat_official_account"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "wechat-009",
+      "source_platform": "wechat_official_account"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "wechat-010",
+      "source_platform": "wechat_official_account"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "xhs-001",
+      "source_platform": "xiaohongshu"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "xhs-002",
+      "source_platform": "xiaohongshu"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "xhs-003",
+      "source_platform": "xiaohongshu"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "xhs-004",
+      "source_platform": "xiaohongshu"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "xhs-005",
+      "source_platform": "xiaohongshu"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "xhs-006",
+      "source_platform": "xiaohongshu"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "xhs-007",
+      "source_platform": "xiaohongshu"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "xhs-008",
+      "source_platform": "xiaohongshu"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "xhs-009",
+      "source_platform": "xiaohongshu"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "xhs-010",
+      "source_platform": "xiaohongshu"
+    },
+    {
+      "availability_states": {
+        "core_content": "explicit_unavailable",
+        "recall_projection": "resolved",
+        "source_identity": "explicit_unknown",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": false,
+        "publisher": false,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": false,
+      "core_record_complete": true,
+      "core_record_resolved": false,
+      "display_fallbacks": {
+        "core_content": "内容暂不可用",
+        "source_identity": "未明确来源"
+      },
+      "gaps": [],
+      "resolved_gaps": [
+        "publisher",
+        "core_content"
+      ],
+      "sample_id": "zhihu-001",
+      "source_platform": "zhihu"
+    },
+    {
+      "availability_states": {
+        "core_content": "resolved",
+        "recall_projection": "resolved",
+        "source_identity": "resolved",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": true,
+        "publisher": true,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": true,
+      "core_record_complete": true,
+      "core_record_resolved": true,
+      "display_fallbacks": {
+        "core_content": "",
+        "source_identity": ""
+      },
+      "gaps": [],
+      "resolved_gaps": [],
+      "sample_id": "zhihu-002",
+      "source_platform": "zhihu"
+    },
+    {
+      "availability_states": {
+        "core_content": "explicit_unavailable",
+        "recall_projection": "resolved",
+        "source_identity": "explicit_unknown",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": false,
+        "publisher": false,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": false,
+      "core_record_complete": true,
+      "core_record_resolved": false,
+      "display_fallbacks": {
+        "core_content": "内容暂不可用",
+        "source_identity": "未明确来源"
+      },
+      "gaps": [],
+      "resolved_gaps": [
+        "publisher",
+        "core_content"
+      ],
+      "sample_id": "zhihu-003",
+      "source_platform": "zhihu"
+    },
+    {
+      "availability_states": {
+        "core_content": "explicit_unavailable",
+        "recall_projection": "resolved",
+        "source_identity": "explicit_unknown",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": false,
+        "publisher": false,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": false,
+      "core_record_complete": true,
+      "core_record_resolved": false,
+      "display_fallbacks": {
+        "core_content": "内容暂不可用",
+        "source_identity": "未明确来源"
+      },
+      "gaps": [],
+      "resolved_gaps": [
+        "publisher",
+        "core_content"
+      ],
+      "sample_id": "zhihu-004",
+      "source_platform": "zhihu"
+    },
+    {
+      "availability_states": {
+        "core_content": "explicit_unavailable",
+        "recall_projection": "resolved",
+        "source_identity": "explicit_unknown",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": false,
+        "publisher": false,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": false,
+      "core_record_complete": true,
+      "core_record_resolved": false,
+      "display_fallbacks": {
+        "core_content": "内容暂不可用",
+        "source_identity": "未明确来源"
+      },
+      "gaps": [],
+      "resolved_gaps": [
+        "publisher",
+        "core_content"
+      ],
+      "sample_id": "zhihu-005",
+      "source_platform": "zhihu"
+    },
+    {
+      "availability_states": {
+        "core_content": "explicit_unavailable",
+        "recall_projection": "resolved",
+        "source_identity": "explicit_unknown",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": false,
+        "publisher": false,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": false,
+      "core_record_complete": true,
+      "core_record_resolved": false,
+      "display_fallbacks": {
+        "core_content": "内容暂不可用",
+        "source_identity": "未明确来源"
+      },
+      "gaps": [],
+      "resolved_gaps": [
+        "publisher",
+        "core_content"
+      ],
+      "sample_id": "zhihu-006",
+      "source_platform": "zhihu"
+    },
+    {
+      "availability_states": {
+        "core_content": "explicit_unavailable",
+        "recall_projection": "resolved",
+        "source_identity": "explicit_unknown",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": false,
+        "publisher": false,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": false,
+      "core_record_complete": true,
+      "core_record_resolved": false,
+      "display_fallbacks": {
+        "core_content": "内容暂不可用",
+        "source_identity": "未明确来源"
+      },
+      "gaps": [],
+      "resolved_gaps": [
+        "publisher",
+        "core_content"
+      ],
+      "sample_id": "zhihu-007",
+      "source_platform": "zhihu"
+    },
+    {
+      "availability_states": {
+        "core_content": "explicit_unavailable",
+        "recall_projection": "resolved",
+        "source_identity": "explicit_unknown",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": false,
+        "publisher": false,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": false,
+      "core_record_complete": true,
+      "core_record_resolved": false,
+      "display_fallbacks": {
+        "core_content": "内容暂不可用",
+        "source_identity": "未明确来源"
+      },
+      "gaps": [],
+      "resolved_gaps": [
+        "publisher",
+        "core_content"
+      ],
+      "sample_id": "zhihu-008",
+      "source_platform": "zhihu"
+    },
+    {
+      "availability_states": {
+        "core_content": "explicit_unavailable",
+        "recall_projection": "resolved",
+        "source_identity": "explicit_unknown",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": false,
+        "publisher": false,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": false,
+      "core_record_complete": true,
+      "core_record_resolved": false,
+      "display_fallbacks": {
+        "core_content": "内容暂不可用",
+        "source_identity": "未明确来源"
+      },
+      "gaps": [],
+      "resolved_gaps": [
+        "publisher",
+        "core_content"
+      ],
+      "sample_id": "zhihu-009",
+      "source_platform": "zhihu"
+    },
+    {
+      "availability_states": {
+        "core_content": "explicit_unavailable",
+        "recall_projection": "resolved",
+        "source_identity": "explicit_unknown",
+        "title": "resolved"
+      },
+      "core_fields": {
+        "core_content": false,
+        "publisher": false,
+        "recall_projection": true,
+        "title": true
+      },
+      "core_recall_complete": true,
+      "core_recall_resolved": false,
+      "core_record_complete": true,
+      "core_record_resolved": false,
+      "display_fallbacks": {
+        "core_content": "内容暂不可用",
+        "source_identity": "未明确来源"
+      },
+      "gaps": [],
+      "resolved_gaps": [
+        "publisher",
+        "core_content"
+      ],
+      "sample_id": "zhihu-010",
+      "source_platform": "zhihu"
+    }
+  ],
+  "content_availability_policy": {
+    "resolved_state": "resolved",
+    "unavailable_counts_as_resolved": false,
+    "unavailable_display_label": "内容暂不可用",
+    "unavailable_state": "explicit_unavailable"
+  },
+  "contract_change_authorized": false,
+  "core_recall_complete_count": 60,
+  "core_recall_resolved_count": 48,
+  "core_record_complete_count": 60,
+  "core_record_resolved_count": 48,
+  "explicit_unavailable_content_count": 10,
+  "explicit_unknown_source_count": 12,
+  "field_counts": {
+    "core_content": 50,
+    "publisher": 48,
+    "recall_projection": 60,
+    "title": 60
+  },
+  "goal_core_recall_count": 60,
+  "internal_availability_policy_authorized": true,
+  "live_action_authorized": false,
+  "measured_complete_recall_count": 60,
+  "next_work_package": "aggregate_review_and_independent_verification",
+  "platforms": [
+    {
+      "case_count": 10,
+      "core_content_count": 10,
+      "core_recall_complete_count": 10,
+      "core_recall_resolved_count": 10,
+      "core_record_complete_count": 10,
+      "core_record_resolved_count": 10,
+      "explicit_unavailable_content_count": 0,
+      "explicit_unknown_source_count": 0,
+      "measured_recall_count": 10,
+      "publisher_count": 10,
+      "source_platform": "bilibili",
+      "title_count": 10
+    },
+    {
+      "case_count": 10,
+      "core_content_count": 10,
+      "core_recall_complete_count": 10,
+      "core_recall_resolved_count": 10,
+      "core_record_complete_count": 10,
+      "core_record_resolved_count": 10,
+      "explicit_unavailable_content_count": 0,
+      "explicit_unknown_source_count": 0,
+      "measured_recall_count": 10,
+      "publisher_count": 10,
+      "source_platform": "douyin",
+      "title_count": 10
+    },
+    {
+      "case_count": 10,
+      "core_content_count": 9,
+      "core_recall_complete_count": 10,
+      "core_recall_resolved_count": 7,
+      "core_record_complete_count": 10,
+      "core_record_resolved_count": 7,
+      "explicit_unavailable_content_count": 1,
+      "explicit_unknown_source_count": 3,
+      "measured_recall_count": 10,
+      "publisher_count": 7,
+      "source_platform": "web",
+      "title_count": 10
+    },
+    {
+      "case_count": 10,
+      "core_content_count": 10,
+      "core_recall_complete_count": 10,
+      "core_recall_resolved_count": 10,
+      "core_record_complete_count": 10,
+      "core_record_resolved_count": 10,
+      "explicit_unavailable_content_count": 0,
+      "explicit_unknown_source_count": 0,
+      "measured_recall_count": 10,
+      "publisher_count": 10,
+      "source_platform": "wechat_official_account",
+      "title_count": 10
+    },
+    {
+      "case_count": 10,
+      "core_content_count": 10,
+      "core_recall_complete_count": 10,
+      "core_recall_resolved_count": 10,
+      "core_record_complete_count": 10,
+      "core_record_resolved_count": 10,
+      "explicit_unavailable_content_count": 0,
+      "explicit_unknown_source_count": 0,
+      "measured_recall_count": 10,
+      "publisher_count": 10,
+      "source_platform": "xiaohongshu",
+      "title_count": 10
+    },
+    {
+      "case_count": 10,
+      "core_content_count": 1,
+      "core_recall_complete_count": 10,
+      "core_recall_resolved_count": 1,
+      "core_record_complete_count": 10,
+      "core_record_resolved_count": 1,
+      "explicit_unavailable_content_count": 9,
+      "explicit_unknown_source_count": 9,
+      "measured_recall_count": 10,
+      "publisher_count": 1,
+      "source_platform": "zhihu",
+      "title_count": 10
+    }
+  ],
+  "remaining_core_recall_count": 0,
+  "required_core_fields": [
+    "title",
+    "publisher",
+    "core_content",
+    "recall_projection"
+  ],
+  "sample_count": 60,
+  "schema_version": "perclip.stage25.core-recall-gap-plan.v1",
+  "source_identity_policy": {
+    "resolved_state": "resolved",
+    "unknown_counts_as_resolved": false,
+    "unknown_display_label": "未明确来源",
+    "unknown_state": "explicit_unknown"
+  },
+  "strict_ready_count": 4
+}

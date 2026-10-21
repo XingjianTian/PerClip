@@ -1,0 +1,24 @@
+{
+  "entry_url": "https://example.test/loop-a",
+  "max_redirects": 3,
+  "steps": [
+    {
+      "connect_address": "validated",
+      "headers": {
+        "location": "/loop-b"
+      },
+      "resolution": "public",
+      "status": 302,
+      "url": "https://example.test/loop-a"
+    },
+    {
+      "connect_address": "validated",
+      "headers": {
+        "location": "/loop-a"
+      },
+      "resolution": "public",
+      "status": 302,
+      "url": "https://example.test/loop-b"
+    }
+  ]
+}

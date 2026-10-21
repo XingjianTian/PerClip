@@ -1,0 +1,802 @@
+{
+  "cases": [
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "bilibili-001",
+      "source_identity_state": "resolved",
+      "source_platform": "bilibili",
+      "title_query_token": "bilibili-001"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "bilibili-002",
+      "source_identity_state": "resolved",
+      "source_platform": "bilibili",
+      "title_query_token": "bilibili-002"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "bilibili-003",
+      "source_identity_state": "resolved",
+      "source_platform": "bilibili",
+      "title_query_token": "bilibili-003"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "bilibili-004",
+      "source_identity_state": "resolved",
+      "source_platform": "bilibili",
+      "title_query_token": "bilibili-004"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "bilibili-005",
+      "source_identity_state": "resolved",
+      "source_platform": "bilibili",
+      "title_query_token": "bilibili-005"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "bilibili-006",
+      "source_identity_state": "resolved",
+      "source_platform": "bilibili",
+      "title_query_token": "bilibili-006"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "bilibili-007",
+      "source_identity_state": "resolved",
+      "source_platform": "bilibili",
+      "title_query_token": "bilibili-007"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "bilibili-008",
+      "source_identity_state": "resolved",
+      "source_platform": "bilibili",
+      "title_query_token": "bilibili-008"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "bilibili-009",
+      "source_identity_state": "resolved",
+      "source_platform": "bilibili",
+      "title_query_token": "bilibili-009"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "bilibili-010",
+      "source_identity_state": "resolved",
+      "source_platform": "bilibili",
+      "title_query_token": "bilibili-010"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "douyin-001",
+      "source_identity_state": "resolved",
+      "source_platform": "douyin",
+      "title_query_token": "douyin-001"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "douyin-002",
+      "source_identity_state": "resolved",
+      "source_platform": "douyin",
+      "title_query_token": "douyin-002"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "douyin-003",
+      "source_identity_state": "resolved",
+      "source_platform": "douyin",
+      "title_query_token": "douyin-003"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "douyin-004",
+      "source_identity_state": "resolved",
+      "source_platform": "douyin",
+      "title_query_token": "douyin-004"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "douyin-005",
+      "source_identity_state": "resolved",
+      "source_platform": "douyin",
+      "title_query_token": "douyin-005"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "douyin-006",
+      "source_identity_state": "resolved",
+      "source_platform": "douyin",
+      "title_query_token": "douyin-006"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "douyin-007",
+      "source_identity_state": "resolved",
+      "source_platform": "douyin",
+      "title_query_token": "douyin-007"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "douyin-008",
+      "source_identity_state": "resolved",
+      "source_platform": "douyin",
+      "title_query_token": "douyin-008"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "douyin-009",
+      "source_identity_state": "resolved",
+      "source_platform": "douyin",
+      "title_query_token": "douyin-009"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "douyin-010",
+      "source_identity_state": "resolved",
+      "source_platform": "douyin",
+      "title_query_token": "douyin-010"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "web-001",
+      "source_identity_state": "explicit_unknown",
+      "source_platform": "web",
+      "title_query_token": "web-001"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "web-002",
+      "source_identity_state": "resolved",
+      "source_platform": "web",
+      "title_query_token": "web-002"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "web-003",
+      "source_identity_state": "resolved",
+      "source_platform": "web",
+      "title_query_token": "web-003"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "web-004",
+      "source_identity_state": "resolved",
+      "source_platform": "web",
+      "title_query_token": "web-004"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "web-005",
+      "source_identity_state": "resolved",
+      "source_platform": "web",
+      "title_query_token": "web-005"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "web-006",
+      "source_identity_state": "explicit_unknown",
+      "source_platform": "web",
+      "title_query_token": "web-006"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "web-007",
+      "source_identity_state": "resolved",
+      "source_platform": "web",
+      "title_query_token": "web-007"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "web-008",
+      "source_identity_state": "resolved",
+      "source_platform": "web",
+      "title_query_token": "web-008"
+    },
+    {
+      "core_content_state": "explicit_unavailable",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "web-009",
+      "source_identity_state": "explicit_unknown",
+      "source_platform": "web",
+      "title_query_token": "web-009"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "web-010",
+      "source_identity_state": "resolved",
+      "source_platform": "web",
+      "title_query_token": "web-010"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "wechat-001",
+      "source_identity_state": "resolved",
+      "source_platform": "wechat_official_account",
+      "title_query_token": "wechat-001"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "wechat-002",
+      "source_identity_state": "resolved",
+      "source_platform": "wechat_official_account",
+      "title_query_token": "wechat-002"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "wechat-003",
+      "source_identity_state": "resolved",
+      "source_platform": "wechat_official_account",
+      "title_query_token": "wechat-003"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "wechat-004",
+      "source_identity_state": "resolved",
+      "source_platform": "wechat_official_account",
+      "title_query_token": "wechat-004"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "wechat-005",
+      "source_identity_state": "resolved",
+      "source_platform": "wechat_official_account",
+      "title_query_token": "wechat-005"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "wechat-006",
+      "source_identity_state": "resolved",
+      "source_platform": "wechat_official_account",
+      "title_query_token": "wechat-006"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "wechat-007",
+      "source_identity_state": "resolved",
+      "source_platform": "wechat_official_account",
+      "title_query_token": "wechat-007"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "wechat-008",
+      "source_identity_state": "resolved",
+      "source_platform": "wechat_official_account",
+      "title_query_token": "wechat-008"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "wechat-009",
+      "source_identity_state": "resolved",
+      "source_platform": "wechat_official_account",
+      "title_query_token": "wechat-009"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "wechat-010",
+      "source_identity_state": "resolved",
+      "source_platform": "wechat_official_account",
+      "title_query_token": "wechat-010"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "xhs-001",
+      "source_identity_state": "resolved",
+      "source_platform": "xiaohongshu",
+      "title_query_token": "xhs-001"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "xhs-002",
+      "source_identity_state": "resolved",
+      "source_platform": "xiaohongshu",
+      "title_query_token": "xhs-002"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "xhs-003",
+      "source_identity_state": "resolved",
+      "source_platform": "xiaohongshu",
+      "title_query_token": "xhs-003"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "xhs-004",
+      "source_identity_state": "resolved",
+      "source_platform": "xiaohongshu",
+      "title_query_token": "xhs-004"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "xhs-005",
+      "source_identity_state": "resolved",
+      "source_platform": "xiaohongshu",
+      "title_query_token": "xhs-005"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "xhs-006",
+      "source_identity_state": "resolved",
+      "source_platform": "xiaohongshu",
+      "title_query_token": "xhs-006"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "xhs-007",
+      "source_identity_state": "resolved",
+      "source_platform": "xiaohongshu",
+      "title_query_token": "xhs-007"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "xhs-008",
+      "source_identity_state": "resolved",
+      "source_platform": "xiaohongshu",
+      "title_query_token": "xhs-008"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "xhs-009",
+      "source_identity_state": "resolved",
+      "source_platform": "xiaohongshu",
+      "title_query_token": "xhs-009"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "xhs-010",
+      "source_identity_state": "resolved",
+      "source_platform": "xiaohongshu",
+      "title_query_token": "xhs-010"
+    },
+    {
+      "core_content_state": "explicit_unavailable",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "zhihu-001",
+      "source_identity_state": "explicit_unknown",
+      "source_platform": "zhihu",
+      "title_query_token": "zhihu-001"
+    },
+    {
+      "core_content_state": "resolved",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "zhihu-002",
+      "source_identity_state": "resolved",
+      "source_platform": "zhihu",
+      "title_query_token": "zhihu-002"
+    },
+    {
+      "core_content_state": "explicit_unavailable",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "zhihu-003",
+      "source_identity_state": "explicit_unknown",
+      "source_platform": "zhihu",
+      "title_query_token": "zhihu-003"
+    },
+    {
+      "core_content_state": "explicit_unavailable",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "zhihu-004",
+      "source_identity_state": "explicit_unknown",
+      "source_platform": "zhihu",
+      "title_query_token": "zhihu-004"
+    },
+    {
+      "core_content_state": "explicit_unavailable",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "zhihu-005",
+      "source_identity_state": "explicit_unknown",
+      "source_platform": "zhihu",
+      "title_query_token": "zhihu-005"
+    },
+    {
+      "core_content_state": "explicit_unavailable",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "zhihu-006",
+      "source_identity_state": "explicit_unknown",
+      "source_platform": "zhihu",
+      "title_query_token": "zhihu-006"
+    },
+    {
+      "core_content_state": "explicit_unavailable",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "zhihu-007",
+      "source_identity_state": "explicit_unknown",
+      "source_platform": "zhihu",
+      "title_query_token": "zhihu-007"
+    },
+    {
+      "core_content_state": "explicit_unavailable",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "zhihu-008",
+      "source_identity_state": "explicit_unknown",
+      "source_platform": "zhihu",
+      "title_query_token": "zhihu-008"
+    },
+    {
+      "core_content_state": "explicit_unavailable",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "zhihu-009",
+      "source_identity_state": "explicit_unknown",
+      "source_platform": "zhihu",
+      "title_query_token": "zhihu-009"
+    },
+    {
+      "core_content_state": "explicit_unavailable",
+      "required_journey": [
+        "persist",
+        "list",
+        "title_keyword_search",
+        "detail"
+      ],
+      "sample_id": "zhihu-010",
+      "source_identity_state": "explicit_unknown",
+      "source_platform": "zhihu",
+      "title_query_token": "zhihu-010"
+    }
+  ],
+  "core_recall_availability_count": 60,
+  "explicit_unavailable_content_count": 10,
+  "explicit_unknown_source_count": 12,
+  "milestone_id": "Stage26-Core-Memory-Product-Closure",
+  "platform_counts": {
+    "bilibili": 10,
+    "douyin": 10,
+    "web": 10,
+    "wechat_official_account": 10,
+    "xiaohongshu": 10,
+    "zhihu": 10
+  },
+  "rag_or_semantic_search_required": false,
+  "real_url_or_production_action_authorized": false,
+  "review_at": "full_stage26_milestone_only",
+  "sample_count": 60,
+  "schema_version": "perclip.stage26.core-memory-product-closure.v1",
+  "title_search_target_count": 60
+}

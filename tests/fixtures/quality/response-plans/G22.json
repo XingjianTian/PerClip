@@ -1,0 +1,17 @@
+{
+  "entry_url": "https://example.test/app/note/42",
+  "max_redirects": 5,
+  "steps": [
+    {
+      "body_fixture": "web/spa-shell.html",
+      "canonical_url": "",
+      "connect_address": "validated",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "resolution": "public",
+      "status": 200,
+      "url": "https://example.test/app/note/42"
+    }
+  ]
+}

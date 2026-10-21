@@ -1,0 +1,13 @@
+{
+  "corpus_id": "q2-semantic-boundary-v1",
+  "cases": [
+    {"id":"s01","text":"人工智能 大模型 推理","threshold":0.10,"expect_fallback":false},
+    {"id":"s02","text":"足球 欧冠 比赛","threshold":0.10,"expect_fallback":false},
+    {"id":"s03","text":"旅行 酒店 景点","threshold":0.10,"expect_fallback":false},
+    {"id":"s04","text":"Docker automation workflow","threshold":0.10,"expect_fallback":false},
+    {"id":"s05","text":"家庭 沟通 关系","threshold":0.10,"expect_fallback":false},
+    {"id":"s06","text":"??? 123","threshold":1.10,"expect_fallback":true},
+    {"id":"s07","text":"无明确主题的极短文本","threshold":1.10,"expect_fallback":true},
+    {"id":"s08","text":"AI stocks and teaching","threshold":1.10,"expect_fallback":true}
+  ]
+}

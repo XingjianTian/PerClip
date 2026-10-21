@@ -1,0 +1,985 @@
+{
+  "baseline_mode": "first_v2_baseline",
+  "cases": [
+    {
+      "actual": {
+        "content_title": "离线队列复盘",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "user.title_hint",
+        "user_status": "ready"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "离线队列复盘",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "user.title_hint",
+        "user_status": "ready"
+      },
+      "id": "G01",
+      "input_hash": "eb8fb7bc4474d8e4f0ca72a9feab1f0e6ecd3211941c2e46be42a6a1c6e8f0d3",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "android_quick_text"
+    },
+    {
+      "actual": {
+        "content_title": "长文整理实验",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "user.title_hint",
+        "user_status": "ready"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "长文整理实验",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "user.title_hint",
+        "user_status": "ready"
+      },
+      "id": "G02",
+      "input_hash": "42ef6945ad3c784fc080d1802c239e8f3f768595ac8c6fbd8b883fc49bdd7b5a",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "long_plain_text"
+    },
+    {
+      "actual": {
+        "content_title": "可恢复任务设计",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "user.title_hint",
+        "user_status": "ready"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "可恢复任务设计",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "user.title_hint",
+        "user_status": "ready"
+      },
+      "id": "G03",
+      "input_hash": "aa617189704b9a77acc2343d1658e53f12bc4fff4a7509646828dc5602513814",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "markdown"
+    },
+    {
+      "actual": {
+        "content_title": "本地优先的知识整理",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "本地优先的知识整理",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "id": "G04",
+      "input_hash": "49e2b8e8d133ef315b0968493e10e8b07a33a076bed9f7393d839b7825b387c5",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "synthetic_web"
+    },
+    {
+      "actual": {
+        "content_title": "阅读清单工具发布测试版",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "阅读清单工具发布测试版",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "id": "G05",
+      "input_hash": "b5d60c19b98df20f99c28887fa7e5ff05053004d41d56cd8451a4a040559c2be",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "synthetic_web"
+    },
+    {
+      "actual": {
+        "content_title": "PerClip Fixture Runner",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "PerClip Fixture Runner",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "id": "G06",
+      "input_hash": "ba4716d15c834de03ba45e7fa1c5e869e2d225ca7be85ce932ef4479c772beea",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "synthetic_web"
+    },
+    {
+      "actual": {
+        "content_title": "Idempotent request API",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "Idempotent request API",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "id": "G07",
+      "input_hash": "c193dc0a6727d0e9f8f16de64d4578649fec38865abe2b37e714ca4263fad117",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "synthetic_web"
+    },
+    {
+      "actual": {
+        "content_title": "内容清洗的边界",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "partial",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "内容清洗的边界",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "partial",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "id": "G08",
+      "input_hash": "3744b91800264fa9a9e196ff1ebae22a4fd590380ddc7d3786b4dbd0f9ae4ab9",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "synthetic_web"
+    },
+    {
+      "actual": {
+        "content_title": "重定向后的规范地址",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "重定向后的规范地址",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "id": "G09",
+      "input_hash": "6407d07aaa0f93eba868a28b83bf0b1d6d4cb1bf84fc319dc4abc7ea6d6a5cc6",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "synthetic_web"
+    },
+    {
+      "actual": {
+        "content_title": "",
+        "content_title_applicable": false,
+        "index_eligible": false,
+        "processing_state": "failed",
+        "recall_eligible": false,
+        "safe_error_code": "redirect_limit_exceeded",
+        "title_provenance": "",
+        "user_status": "needs_attention"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "",
+        "content_title_applicable": false,
+        "index_eligible": false,
+        "processing_state": "failed",
+        "recall_eligible": false,
+        "safe_error_code": "redirect_limit_exceeded",
+        "title_provenance": "",
+        "user_status": "needs_attention"
+      },
+      "id": "G10",
+      "input_hash": "a7b94563d322d9366c80538fe0d52cdb8d91e95e1f7a2ac35e08162d52dfcaab",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "redirect_loop"
+    },
+    {
+      "actual": {
+        "content_title": "",
+        "content_title_applicable": false,
+        "index_eligible": false,
+        "processing_state": "failed",
+        "recall_eligible": false,
+        "safe_error_code": "private_address_blocked",
+        "title_provenance": "",
+        "user_status": "needs_attention"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "",
+        "content_title_applicable": false,
+        "index_eligible": false,
+        "processing_state": "failed",
+        "recall_eligible": false,
+        "safe_error_code": "private_address_blocked",
+        "title_provenance": "",
+        "user_status": "needs_attention"
+      },
+      "id": "G11",
+      "input_hash": "7cadc20f6d869ff33ce5aec64df6ff369e657c251bc9420109378a2275bc2737",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "loopback_block"
+    },
+    {
+      "actual": {
+        "content_title": "",
+        "content_title_applicable": false,
+        "index_eligible": false,
+        "processing_state": "failed",
+        "recall_eligible": false,
+        "safe_error_code": "private_address_blocked",
+        "title_provenance": "",
+        "user_status": "needs_attention"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "",
+        "content_title_applicable": false,
+        "index_eligible": false,
+        "processing_state": "failed",
+        "recall_eligible": false,
+        "safe_error_code": "private_address_blocked",
+        "title_provenance": "",
+        "user_status": "needs_attention"
+      },
+      "id": "G12",
+      "input_hash": "ab98d1a492238106e0282dac027666cca07a7b5a01361c04aee41578e6c1ace7",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "private_ipv6_block"
+    },
+    {
+      "actual": {
+        "content_title": "",
+        "content_title_applicable": false,
+        "index_eligible": false,
+        "processing_state": "failed",
+        "recall_eligible": false,
+        "safe_error_code": "private_address_blocked",
+        "title_provenance": "",
+        "user_status": "needs_attention"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "",
+        "content_title_applicable": false,
+        "index_eligible": false,
+        "processing_state": "failed",
+        "recall_eligible": false,
+        "safe_error_code": "private_address_blocked",
+        "title_provenance": "",
+        "user_status": "needs_attention"
+      },
+      "id": "G13",
+      "input_hash": "73f4be22f6c6e1d93edfbc018a0b4a3b12722012ac71e9804f4b14a0f9eb2886",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "dns_rebind"
+    },
+    {
+      "actual": {
+        "content_title": "Timeout research reference",
+        "content_title_applicable": true,
+        "index_eligible": false,
+        "processing_state": "failed",
+        "recall_eligible": false,
+        "safe_error_code": "web_fetch_failed",
+        "title_provenance": "user.title_hint",
+        "user_status": "needs_attention"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "Timeout research reference",
+        "content_title_applicable": true,
+        "index_eligible": false,
+        "processing_state": "failed",
+        "recall_eligible": false,
+        "safe_error_code": "web_fetch_failed",
+        "title_provenance": "user.title_hint",
+        "user_status": "needs_attention"
+      },
+      "id": "G14",
+      "input_hash": "cb55e3c0fc97e550fe29996514c08a2ddd4ea1c02c7fa2e9999daef17da7c327",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "timeout"
+    },
+    {
+      "actual": {
+        "content_title": "",
+        "content_title_applicable": false,
+        "index_eligible": false,
+        "processing_state": "failed",
+        "recall_eligible": false,
+        "safe_error_code": "response_too_large",
+        "title_provenance": "",
+        "user_status": "needs_attention"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "",
+        "content_title_applicable": false,
+        "index_eligible": false,
+        "processing_state": "failed",
+        "recall_eligible": false,
+        "safe_error_code": "response_too_large",
+        "title_provenance": "",
+        "user_status": "needs_attention"
+      },
+      "id": "G15",
+      "input_hash": "5923254b185c87e61d110fa6de0a7fdb26aeee448e113da8ec3e3492b9cd0e21",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "oversize"
+    },
+    {
+      "actual": {
+        "content_title": "",
+        "content_title_applicable": false,
+        "index_eligible": false,
+        "processing_state": "failed",
+        "recall_eligible": false,
+        "safe_error_code": "unsupported_content_type",
+        "title_provenance": "",
+        "user_status": "needs_attention"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "",
+        "content_title_applicable": false,
+        "index_eligible": false,
+        "processing_state": "failed",
+        "recall_eligible": false,
+        "safe_error_code": "unsupported_content_type",
+        "title_provenance": "",
+        "user_status": "needs_attention"
+      },
+      "id": "G16",
+      "input_hash": "8578f4cd58dba69dcfe8e8ab225d9c952acba7b561cda937f80b5eb651d3a572",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "mime_mismatch"
+    },
+    {
+      "actual": {
+        "content_title": "unsupported.bin",
+        "content_title_applicable": true,
+        "index_eligible": false,
+        "processing_state": "failed",
+        "recall_eligible": false,
+        "safe_error_code": "unsupported_media_type",
+        "title_provenance": "file.filename",
+        "user_status": "needs_attention"
+      },
+      "actual_source": "quality_read_model",
+      "boundary_evidence": {
+        "filename_provenance": true,
+        "index_excluded": true,
+        "public_clip_identity": true,
+        "raw_asset_preserved": true,
+        "recall_excluded": true
+      },
+      "contract_match": true,
+      "expected": {
+        "content_title": "unsupported.bin",
+        "content_title_applicable": true,
+        "index_eligible": false,
+        "processing_state": "failed",
+        "recall_eligible": false,
+        "safe_error_code": "unsupported_media_type",
+        "title_provenance": "file.filename",
+        "user_status": "needs_attention"
+      },
+      "id": "G17",
+      "input_hash": "1c067415b228853a74da1bfcaa84dc67e78badf5b086e1643162100aacaaa9a2",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "unsupported_binary"
+    },
+    {
+      "actual": {
+        "content_title": "相对规范链接",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "相对规范链接",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "id": "G18",
+      "input_hash": "c1a7e16a22e7070bfb2808af8be0617bbcbac15c296a95296be4d1026c4f1da3",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "synthetic_web"
+    },
+    {
+      "actual": {
+        "content_title": "如何判断网页正文提取质量？",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "如何判断网页正文提取质量？",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "id": "G19",
+      "input_hash": "dfe6435f42fe1804514f4846859837f12d5d741c53150fee44ebd7c9c390ec3d",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "synthetic_web"
+    },
+    {
+      "actual": {
+        "content_title": "三步整理每周阅读清单",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "meta.og:title",
+        "user_status": "ready"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "三步整理每周阅读清单",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "meta.og:title",
+        "user_status": "ready"
+      },
+      "id": "G20",
+      "input_hash": "8240518162fa3c8a0f7e15c34e9b98386dcb44890027751179209200db493eb0",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "synthetic_web"
+    },
+    {
+      "actual": {
+        "content_title": "正文首句作为候选。",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "partial",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "body.first_line",
+        "user_status": "ready"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "正文首句作为候选。",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "partial",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "body.first_line",
+        "user_status": "ready"
+      },
+      "id": "G21",
+      "input_hash": "4607fc9740d3029f3a6751977b968d2346e5672cd05db51e41d249c3e602660d",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "synthetic_web"
+    },
+    {
+      "actual": {
+        "content_title": "",
+        "content_title_applicable": false,
+        "index_eligible": false,
+        "processing_state": "partial",
+        "recall_eligible": false,
+        "safe_error_code": "",
+        "title_provenance": "",
+        "user_status": "needs_attention"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "",
+        "content_title_applicable": false,
+        "index_eligible": false,
+        "processing_state": "partial",
+        "recall_eligible": false,
+        "safe_error_code": "",
+        "title_provenance": "",
+        "user_status": "needs_attention"
+      },
+      "id": "G22",
+      "input_hash": "42ad04c1f97ae8537f455176889d337d42d80c609f46c122b5aafc12bf2208fc",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "synthetic_web"
+    },
+    {
+      "actual": {
+        "content_title": "缓存刷新检查",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "user.title_hint",
+        "user_status": "ready"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "缓存刷新检查",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "user.title_hint",
+        "user_status": "ready"
+      },
+      "id": "G37",
+      "input_hash": "c581383082b9c765455267d904c37e9aa9fec1a35af1f9b6e30b1190efa034f6",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "share_text_url"
+    },
+    {
+      "actual": {
+        "content_title": "同一文章的两个入口",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "同一文章的两个入口",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "id": "G38",
+      "input_hash": "6c713da0e2514696266bb557b8e8c29f147c97392bbad8b16dacdf284f3c2a2f",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "canonical_duplicate"
+    },
+    {
+      "actual": {
+        "content_title": "Local-first 知识工作流",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "Local-first 知识工作流",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "id": "G39",
+      "input_hash": "8e157e8e21c73bce3d6a0b5dc78e06b44664e111f911ba354107585c6458bef7",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "bilingual_web"
+    },
+    {
+      "actual": {
+        "content_title": "鲁棒清洗的压力样本",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "actual_source": "quality_read_model",
+      "contract_match": true,
+      "expected": {
+        "content_title": "鲁棒清洗的压力样本",
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": "completed",
+        "recall_eligible": true,
+        "safe_error_code": "",
+        "title_provenance": "html.title",
+        "user_status": "ready"
+      },
+      "id": "G40",
+      "input_hash": "30f8872e2ff4abc8efe0af6c7f00e6529d7fdf77972807fa970cea566ad94b40",
+      "matches": {
+        "content_title": true,
+        "content_title_applicable": true,
+        "index_eligible": true,
+        "processing_state": true,
+        "recall_eligible": true,
+        "safe_error_code": true,
+        "title_provenance": true,
+        "user_status": true
+      },
+      "source_class": "long_noisy_web"
+    }
+  ],
+  "corpus_version": "q1-web-v2",
+  "manifest_hash": "316ed0a6090ecbcc922a8737e8ccb718190b52b4eb6e871015e4fdc6dd0d44bc",
+  "perclip_commit": "293f3e61c44110d78f64e5c80ddd24ffd360b461",
+  "relative_comparison": null,
+  "schema_version": "perclip.quality-corpus-report.v2",
+  "summary": {
+    "all_contracts_match": true,
+    "case_count": 26,
+    "contract_failed": 0,
+    "contract_passed": 26
+  }
+}

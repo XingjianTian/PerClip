@@ -1,0 +1,42 @@
+name: PerClip CI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  server-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+
+      - name: Run server tests
+        run: cd server && uv run --extra dev pytest
+
+  android-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Run Android JVM tests
+        run: cd android && ./gradlew :app:testDebugUnitTest
+
+      - name: Run Android lint
+        run: cd android && ./gradlew :app:lintDebug
