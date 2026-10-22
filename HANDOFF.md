@@ -33,3 +33,6 @@ The README now includes three reviewed Android screenshots from offline Debug
 fixtures: Knowledge, memory detail and library management. They contain fictional
 content and no connection settings; original screenshot pixels are preserved.
 These illustrations are not production or external-service acceptance evidence.
+
+The gallery leads with Light/Dark Memory Planet captures from offline Debug
+fixtures, showing topic orbits and related memories before the utility screens.

@@ -14,6 +14,12 @@ PerClip 把 Android 上零散的链接、文字与文件，沉淀为自有服务
 
 来自 Android App 的离线演示截图；内容均为虚构示例，不包含个人资料或服务器连接信息。
 
+<p align="center">
+  <img src="docs/assets/screenshots/memory-planet.png" alt="记忆星球：围绕主题轨道浮现相关记忆，点击主题切换内容" width="300">
+  <img src="docs/assets/screenshots/memory-planet-dark.png" alt="深色记忆星球：主题、记忆卫星与关联内容" width="300">
+</p>
+<p align="center"><sub>记忆星球 · 主题轨道、记忆卫星与自然浮现，让收藏变成可以探索的知识空间。</sub></p>
+
 <table>
   <tr><th>知识列表</th><th>记忆详情</th><th>知识库管理</th></tr>
   <tr>

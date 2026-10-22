@@ -30,3 +30,8 @@ detail and library management. Their content is synthetic; no real user material
 server address, credentials or private capture metadata is published. Original
 pixels were retained. README distinguishes illustration from live verification.
 No application code, device, private data or deployment changed.
+
+## 2026-10-22 — Memory Planet gallery correction
+
+Promoted the distinctive Memory Planet feature with Light/Dark offline fixture
+captures, retaining original pixels and the synthetic-content boundary.
