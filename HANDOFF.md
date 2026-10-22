@@ -28,3 +28,8 @@ regressions remain in the public source.
 The public README presents current product value, an original workflow diagram
 and a concise self-hosted quick start. It preserves the Android/self-hosted scope
 and optional RAGFlow boundary; no product behavior or deployment status changed.
+
+The README now includes three reviewed Android screenshots from offline Debug
+fixtures: Knowledge, memory detail and library management. They contain fictional
+content and no connection settings; original screenshot pixels are preserved.
+These illustrations are not production or external-service acceptance evidence.

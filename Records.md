@@ -22,3 +22,11 @@ ownership. Added a source-controlled SVG workflow illustration, concise setup
 commands and documentation links. Development/privacy detail is collapsible;
 current product and licensing boundaries remain explicit. No runtime code,
 production configuration, private content or deployment was changed.
+
+## 2026-10-22 — README screenshots
+
+Added three visually reviewed offline Android screenshots for Knowledge, memory
+detail and library management. Their content is synthetic; no real user material,
+server address, credentials or private capture metadata is published. Original
+pixels were retained. README distinguishes illustration from live verification.
+No application code, device, private data or deployment changed.

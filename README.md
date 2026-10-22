@@ -10,6 +10,19 @@ PerClip 把 Android 上零散的链接、文字与文件，沉淀为自有服务
 
 ![PerClip 工作流程：Android 收集，经队列和 API 持久接收，在自有服务器处理，再通过列表、标题搜索和详情找回；RAGFlow 是可选索引。](docs/assets/readme-workflow.svg)
 
+## 界面预览
+
+来自 Android App 的离线演示截图；内容均为虚构示例，不包含个人资料或服务器连接信息。
+
+<table>
+  <tr><th>知识列表</th><th>记忆详情</th><th>知识库管理</th></tr>
+  <tr>
+    <td><img src="docs/assets/screenshots/knowledge.png" alt="知识列表：本地保存、已入库与失败分类，以及标题搜索" width="260"></td>
+    <td><img src="docs/assets/screenshots/memory-detail.png" alt="记忆详情：来源、主题与可阅读的原始内容" width="260"></td>
+    <td><img src="docs/assets/screenshots/libraries.png" alt="知识库管理：默认知识库、分类与支持的平台" width="260"></td>
+  </tr>
+</table>
+
 ## 为什么选择 PerClip
 
 | 能力 | 带来的价值 |
