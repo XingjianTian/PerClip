@@ -1,88 +1,86 @@
 # PerClip
 
-**随手收集，可靠保存，随时找回。**
+**English (primary)** | [简体中文](README.zh-CN.md)
 
-PerClip 把 Android 上零散的链接、文字与文件，沉淀为自有服务器上的知识资产。
-从系统分享和闪记开始，通过持久化队列与后台处理，连接到知识列表、标题搜索和详情，
-让收集的内容有去处，也有清晰的找回路径。
+**Capture easily. Save reliably. Find it again.**
 
-[快速开始](#快速开始) · [产品范围](docs/product-scope.md) · [服务端架构](docs/architecture.md) · [环境配置](docs/ENVIRONMENT.md)
+PerClip turns scattered links, text, and files on Android into knowledge assets on your own server.
+System sharing and quick notes feed a durable queue and background processing, then connect to a knowledge list, title search, and detail views—giving captured content a home and a clear path back.
 
-![PerClip 工作流程：Android 收集，经队列和 API 持久接收，在自有服务器处理，再通过列表、标题搜索和详情找回；RAGFlow 是可选索引。](docs/assets/readme-workflow.svg)
+[Quick start](#quick-start) · [Product scope](docs/product-scope.md) · [Server architecture](docs/architecture.md) · [Configuration](docs/ENVIRONMENT.md)
 
-## 界面预览
+![PerClip workflow: Android capture, durable queue and API acceptance, self-hosted processing, and retrieval through lists, title search, and details; RAGFlow is an optional index.](docs/assets/readme-workflow.svg)
 
-来自 Android App 的离线演示截图；内容均为虚构示例，不包含个人资料或服务器连接信息。
+## Interface preview
+
+Offline demo captures from the Android app. All content is fictional, with no personal information or server connection settings.
 
 <p align="center">
-  <img src="docs/assets/screenshots/memory-planet.png" alt="记忆星球：围绕主题轨道浮现相关记忆，点击主题切换内容" width="300">
-  <img src="docs/assets/screenshots/memory-planet-dark.png" alt="深色记忆星球：主题、记忆卫星与关联内容" width="300">
+  <img src="docs/assets/screenshots/memory-planet.png" alt="Memory Planet: memories appear around topic orbits; select a topic to change the content" width="300">
+  <img src="docs/assets/screenshots/memory-planet-dark.png" alt="Dark Memory Planet: topics, memory satellites, and related content" width="300">
 </p>
-<p align="center"><sub>记忆星球 · 主题轨道、记忆卫星与自然浮现，让收藏变成可以探索的知识空间。</sub></p>
+<p align="center"><sub>Memory Planet · Topic orbits, memory satellites, and emerging connections turn saved content into an explorable knowledge space.</sub></p>
 
 <table>
-  <tr><th>知识列表</th><th>记忆详情</th><th>知识库管理</th></tr>
+  <tr><th>Knowledge list</th><th>Memory details</th><th>Library management</th></tr>
   <tr>
-    <td><img src="docs/assets/screenshots/knowledge.png" alt="知识列表：本地保存、已入库与失败分类，以及标题搜索" width="260"></td>
-    <td><img src="docs/assets/screenshots/memory-detail.png" alt="记忆详情：来源、主题与可阅读的原始内容" width="260"></td>
-    <td><img src="docs/assets/screenshots/libraries.png" alt="知识库管理：默认知识库、分类与支持的平台" width="260"></td>
+    <td><img src="docs/assets/screenshots/knowledge.png" alt="Knowledge list: locally saved, indexed, and failed items, with title search" width="260"></td>
+    <td><img src="docs/assets/screenshots/memory-detail.png" alt="Memory details: source, topics, and readable original content" width="260"></td>
+    <td><img src="docs/assets/screenshots/libraries.png" alt="Library management: default library, categories, and supported platforms" width="260"></td>
   </tr>
 </table>
 
-## 为什么选择 PerClip
+## Why PerClip
 
-| 能力 | 带来的价值 |
+| Capability | What it gives you |
 | --- | --- |
-| **保存可追踪** | Android 本地队列、服务端持久接收与幂等处理，让上传、重试和处理状态有据可查。 |
-| **找回更直接** | 知识列表、标题关键词搜索与详情读回，保留原始资产和来源信息。 |
-| **数据归自己** | 自托管存储与处理，集成凭据留在服务端；RAGFlow 可按需接入。 |
+| **Traceable saving** | An Android local queue, durable server acceptance, and idempotent processing make uploads, retries, and processing status traceable. |
+| **Direct retrieval** | Browse the knowledge list, search literal title keywords, and read details while retaining original assets and source information. |
+| **Your own data** | Self-hosted storage and processing keep integration credentials on the server; add RAGFlow when needed. |
 
-适合希望将手机内容沉淀到 NAS 或自有服务器的个人与技术用户。
-核心保存、列表与标题搜索不依赖 RAGFlow；当前提供 Android 与自托管服务端源码，
-不包含托管云服务或正式签名安装包。
+For individuals and technical users who want to collect phone content on a NAS or their own server.
+Core saving, lists, and title search do not depend on RAGFlow. The repository currently provides Android and self-hosted server source code, without a hosted cloud service or an officially signed installation package.
 
-## 快速开始
+## Quick start
 
-需要 Python 3.11+ 和 [uv](https://docs.astral.sh/uv/)。
+Requires Python 3.11+ and [uv](https://docs.astral.sh/uv/).
 
 ```sh
 git clone https://github.com/XingjianTian/PerClip.git
 cd PerClip
 cp .env.example .env
 chmod 600 .env
-# 在 .env 中设置独立随机 PERCLIP_INGEST_TOKEN，并按需填写地址和路径。
+# Set an independent random PERCLIP_INGEST_TOKEN and the required addresses and paths in .env.
 make setup
 make api
-# 另开终端，在同一目录执行：
+# In another terminal, from the same directory:
 make worker
 ```
 
-在 Android 设置页填入移动端 API 地址和 mobile ingest token；服务端的 RAGFlow、
-ASR、embedding 等凭据不进入 APK。默认仅监听回环地址，跨设备访问与可选网关配置
-请按 [环境配置](docs/ENVIRONMENT.md) 设置。
+Enter the mobile API address and mobile ingest token in Android settings. Server credentials for RAGFlow, ASR, embeddings, and other integrations are not included in the APK. The server binds to loopback by default; follow [configuration](docs/ENVIRONMENT.md) for cross-device access and optional gateway setup.
 
-## 继续了解
+## Explore
 
-- [服务端说明](server/README.md)：API、Worker、存储与可选集成。
-- [数据合同](docs/data-contract.md)：内容、元数据与持久化边界。
-- [收集合同](docs/capture-contract.md)：收集入口与客户端职责。
+- [Server guide](server/README.md): API, worker, storage, and optional integrations.
+- [Data contract](docs/data-contract.md): content, metadata, and durability boundaries.
+- [Capture contract](docs/capture-contract.md): capture entry points and client responsibilities.
 
 <details>
-<summary><strong>开发与验证</strong></summary>
+<summary><strong>Development and verification</strong></summary>
 
-安装 Gitleaks 8.25+、配置 GitHub noreply 邮箱，并为新克隆启用提交前隐私检查：
+Install Gitleaks 8.25+, configure a GitHub noreply email, and enable pre-commit privacy checks for a new clone:
 
 ```sh
 make privacy-setup
 make test
-# Android 构建另需 JDK 17 和对应 Android SDK。
+# Android builds additionally require JDK 17 and the corresponding Android SDK.
 cd android
 ./gradlew :app:testDebugUnitTest :app:lintDebug :app:assembleDebug
 ```
 
-测试使用隔离存储与合成语料，不代表真实平台采集或生产部署验收。
-提交前请阅读 [隐私检查](docs/PRIVACY.md)；真实配置、个人内容和运行数据应保持在 Git 外。
+Tests use isolated storage and synthetic corpora. They do not establish real-platform capture compatibility or production deployment acceptance.
+Read the [privacy checks](docs/PRIVACY.md) before contributing; keep real configuration, personal content, and runtime data outside Git.
 
 </details>
 
-**许可说明：**项目自身代码尚未选择开源许可证；第三方组件及合成语料遵循各自许可。
+**License:** no open-source license has been selected for the project's own code. Third-party components and synthetic corpora retain their respective licenses.
